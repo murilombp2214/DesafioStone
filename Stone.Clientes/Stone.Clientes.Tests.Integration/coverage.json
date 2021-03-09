@@ -1,0 +1,1893 @@
+{
+  "Stone.Clientes.API.dll": {
+    "C:\\Trabalho\\Stone\\Stone.Clientes\\Stone.Clientes.API\\Program.cs": {
+      "Stone.Clientes.API.Program": {
+        "System.Void Stone.Clientes.API.Program::Main(System.String[])": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.Extensions.Hosting.IHostBuilder Stone.Clientes.API.Program::CreateHostBuilder(System.String[])": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.Clientes\\Stone.Clientes.API\\Startup.cs": {
+      "Stone.Clientes.API.Startup": {
+        "Microsoft.Extensions.Configuration.IConfiguration Stone.Clientes.API.Startup::get_Configuration()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.Void Stone.Clientes.API.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "23": 9,
+            "24": 9,
+            "25": 9,
+            "26": 9,
+            "27": 9,
+            "28": 9,
+            "29": 9,
+            "30": 9
+          },
+          "Branches": []
+        },
+        "System.Void Stone.Clientes.API.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)": {
+          "Lines": {
+            "33": 9,
+            "34": 9,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "39": 9,
+            "41": 9,
+            "43": 9,
+            "45": 9,
+            "47": 9,
+            "49": 9,
+            "51": 9,
+            "52": 9,
+            "53": 9,
+            "54": 18,
+            "55": 9
+          },
+          "Branches": [
+            {
+              "Line": 34,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 9,
+              "EndOffset": 20,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 9
+            }
+          ]
+        },
+        "System.Void Stone.Clientes.API.Startup::.ctor(Microsoft.Extensions.Configuration.IConfiguration,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)": {
+          "Lines": {
+            "16": 9,
+            "17": 9,
+            "18": 9,
+            "19": 9,
+            "20": 9
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.Clientes\\Stone.Clientes.API\\Middlewares\\GlobalExceptionHandlerMiddleware.cs": {
+      "Stone.Clientes.API.Middlewares.GlobalExceptionHandlerMiddleware": {
+        "System.Threading.Tasks.Task Stone.Clientes.API.Middlewares.GlobalExceptionHandlerMiddleware::HandleExceptionAsync(Microsoft.AspNetCore.Http.HttpContext,System.Exception)": {
+          "Lines": {
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0
+          },
+          "Branches": []
+        },
+        "System.Void Stone.Clientes.API.Middlewares.GlobalExceptionHandlerMiddleware::.ctor(Microsoft.Extensions.Logging.ILogger`1<Stone.Clientes.API.Middlewares.GlobalExceptionHandlerMiddleware>)": {
+          "Lines": {
+            "17": 9,
+            "18": 9,
+            "19": 9,
+            "20": 9
+          },
+          "Branches": []
+        },
+        "System.Void Stone.Clientes.API.Middlewares.GlobalExceptionHandlerMiddleware::.cctor()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        }
+      },
+      "Stone.Clientes.API.Middlewares.GlobalExceptionHandlerMiddleware/<InvokeAsync>d__4": {
+        "System.Void Stone.Clientes.API.Middlewares.GlobalExceptionHandlerMiddleware/<InvokeAsync>d__4::MoveNext()": {
+          "Lines": {
+            "23": 9,
+            "25": 9,
+            "26": 9,
+            "28": 9,
+            "29": 9,
+            "31": 9,
+            "32": 9,
+            "33": 9,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 9
+          },
+          "Branches": [
+            {
+              "Line": 28,
+              "Offset": 95,
+              "EndOffset": 97,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 9
+            },
+            {
+              "Line": 28,
+              "Offset": 95,
+              "EndOffset": 122,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 9
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.Clientes\\Stone.Clientes.API\\Middlewares\\GlobalExceptionHandlerMiddlewareExtensions.cs": {
+      "Stone.Clientes.API.Middlewares.GlobalExceptionHandlerMiddlewareExtensions": {
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection Stone.Clientes.API.Middlewares.GlobalExceptionHandlerMiddlewareExtensions::AddGlobalExceptionHandlerMiddleware(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "9": 9,
+            "10": 9,
+            "11": 9
+          },
+          "Branches": []
+        },
+        "System.Void Stone.Clientes.API.Middlewares.GlobalExceptionHandlerMiddlewareExtensions::UseGlobalExceptionHandlerMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder)": {
+          "Lines": {
+            "14": 9,
+            "15": 9,
+            "16": 9
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.Clientes\\Stone.Clientes.API\\Controllers\\V1\\ClienteController.cs": {
+      "Stone.Clientes.API.Controllers.V1.ClienteController": {
+        "System.Void Stone.Clientes.API.Controllers.V1.ClienteController::.ctor(Stone.Clientes.Aplicacacao.AppService.Interfaces.IClienteAppService)": {
+          "Lines": {
+            "18": 9,
+            "19": 9,
+            "20": 9,
+            "21": 9
+          },
+          "Branches": []
+        }
+      },
+      "Stone.Clientes.API.Controllers.V1.ClienteController/<Cadastrar>d__2": {
+        "System.Void Stone.Clientes.API.Controllers.V1.ClienteController/<Cadastrar>d__2::MoveNext()": {
+          "Lines": {
+            "28": 2,
+            "29": 2,
+            "30": 2,
+            "31": 1,
+            "33": 1,
+            "34": 2
+          },
+          "Branches": [
+            {
+              "Line": 30,
+              "Offset": 169,
+              "EndOffset": 171,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 30,
+              "Offset": 169,
+              "EndOffset": 191,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "Stone.Clientes.API.Controllers.V1.ClienteController/<ConsultarPorCpf>d__3": {
+        "System.Void Stone.Clientes.API.Controllers.V1.ClienteController/<ConsultarPorCpf>d__3::MoveNext()": {
+          "Lines": {
+            "42": 4,
+            "43": 4,
+            "44": 4,
+            "45": 2,
+            "47": 2,
+            "48": 4
+          },
+          "Branches": [
+            {
+              "Line": 44,
+              "Offset": 169,
+              "EndOffset": 171,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 44,
+              "Offset": 169,
+              "EndOffset": 185,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            }
+          ]
+        }
+      },
+      "Stone.Clientes.API.Controllers.V1.ClienteController/<Consultar>d__4": {
+        "System.Void Stone.Clientes.API.Controllers.V1.ClienteController/<Consultar>d__4::MoveNext()": {
+          "Lines": {
+            "55": 3,
+            "56": 3,
+            "57": 3,
+            "58": 2,
+            "60": 1,
+            "61": 3
+          },
+          "Branches": [
+            {
+              "Line": 57,
+              "Offset": 169,
+              "EndOffset": 171,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 57,
+              "Offset": 169,
+              "EndOffset": 191,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.Clientes\\Stone.Clientes.API\\Configurations\\Swagger\\SwaggerConfig.cs": {
+      "Stone.Clientes.API.Configurations.Swagger.SwaggerConfig": {
+        "System.Void Stone.Clientes.API.Configurations.Swagger.SwaggerConfig::AddSwaggerConfiguration(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "10": 9,
+            "11": 9,
+            "12": 9,
+            "13": 9,
+            "14": 9,
+            "15": 9,
+            "16": 9,
+            "17": 9,
+            "18": 9,
+            "19": 9,
+            "20": 9,
+            "21": 9,
+            "22": 9,
+            "23": 9,
+            "24": 9,
+            "25": 18,
+            "26": 9
+          },
+          "Branches": []
+        },
+        "System.Void Stone.Clientes.API.Configurations.Swagger.SwaggerConfig::UseSwaggerSetup(Microsoft.AspNetCore.Builder.IApplicationBuilder)": {
+          "Lines": {
+            "29": 9,
+            "30": 9,
+            "31": 18,
+            "32": 9
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Stone.Clientes.Aplicacacao.dll": {
+    "C:\\Trabalho\\Stone\\Stone.Clientes\\Stone.Apresentacao\\Response\\Cliente\\ClienteResponse.cs": {
+      "Stone.Clientes.Aplicacacao.Response.Cliente.ClienteResponse": {
+        "System.Guid Stone.Clientes.Aplicacacao.Response.Cliente.ClienteResponse::get_Id()": {
+          "Lines": {
+            "9": 2
+          },
+          "Branches": []
+        },
+        "System.String Stone.Clientes.Aplicacacao.Response.Cliente.ClienteResponse::get_Nome()": {
+          "Lines": {
+            "11": 2
+          },
+          "Branches": []
+        },
+        "System.String Stone.Clientes.Aplicacacao.Response.Cliente.ClienteResponse::get_Estado()": {
+          "Lines": {
+            "13": 2
+          },
+          "Branches": []
+        },
+        "System.String Stone.Clientes.Aplicacacao.Response.Cliente.ClienteResponse::get_Cpf()": {
+          "Lines": {
+            "15": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.Clientes\\Stone.Apresentacao\\Request\\Cliente\\ClienteRequest.cs": {
+      "Stone.Clientes.Aplicacacao.Request.Cliente.ClienteRequest": {
+        "System.String Stone.Clientes.Aplicacacao.Request.Cliente.ClienteRequest::get_Nome()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.String Stone.Clientes.Aplicacacao.Request.Cliente.ClienteRequest::get_Estado()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.String Stone.Clientes.Aplicacacao.Request.Cliente.ClienteRequest::get_Cpf()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.Clientes\\Stone.Apresentacao\\Mappers\\ClienteReponseMapper.cs": {
+      "Stone.Clientes.Aplicacacao.Mappers.ClienteReponseMapper": {
+        "Stone.Clientes.Aplicacacao.Response.Cliente.ClienteResponse Stone.Clientes.Aplicacacao.Mappers.ClienteReponseMapper::ConverterClienteEmClienteResponse(Stone.Clientes.Dominio.Entities.Cliente)": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.Clientes\\Stone.Apresentacao\\Mappers\\ClienteRequestMapper.cs": {
+      "Stone.Clientes.Aplicacacao.Mappers.ClienteRequestMapper": {
+        "Stone.Clientes.Dominio.Entities.Cliente Stone.Clientes.Aplicacacao.Mappers.ClienteRequestMapper::ConverterClienteRequestEmCliente(Stone.Clientes.Aplicacacao.Request.Cliente.ClienteRequest)": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0
+          },
+          "Branches": [
+            {
+              "Line": 10,
+              "Offset": 2,
+              "EndOffset": 4,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 10,
+              "Offset": 2,
+              "EndOffset": 7,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 10,
+              "Offset": 14,
+              "EndOffset": 16,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 10,
+              "Offset": 14,
+              "EndOffset": 19,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 10,
+              "Offset": 26,
+              "EndOffset": 28,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 10,
+              "Offset": 26,
+              "EndOffset": 31,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.Clientes\\Stone.Apresentacao\\AppService\\ClienteAppService.cs": {
+      "Stone.Clientes.Aplicacacao.AppService.ClienteAppService": {
+        "System.Void Stone.Clientes.Aplicacacao.AppService.ClienteAppService::.ctor(Stone.Clientes.Dominio.Services.Interfaces.IClienteService,Stone.Clientes.Infra.CrossCutting.Utils.Interfaces.ICpfMask)": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0
+          },
+          "Branches": []
+        }
+      },
+      "Stone.Clientes.Aplicacacao.AppService.ClienteAppService/<Cadastrar>d__3": {
+        "System.Void Stone.Clientes.Aplicacacao.AppService.ClienteAppService/<Cadastrar>d__3::MoveNext()": {
+          "Lines": {
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "29": 0,
+            "30": 0,
+            "32": 0,
+            "34": 0,
+            "35": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "42": 0
+          },
+          "Branches": [
+            {
+              "Line": 26,
+              "Offset": 29,
+              "EndOffset": 31,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 29,
+              "EndOffset": 50,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 279,
+              "EndOffset": 281,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 279,
+              "EndOffset": 324,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Stone.Clientes.Aplicacacao.AppService.ClienteAppService/<>c": {
+        "Stone.Clientes.Aplicacacao.Response.Cliente.ClienteResponse Stone.Clientes.Aplicacacao.AppService.ClienteAppService/<>c::<Consultar>b__4_0(Stone.Clientes.Dominio.Entities.Cliente)": {
+          "Lines": {
+            "51": 0
+          },
+          "Branches": []
+        }
+      },
+      "Stone.Clientes.Aplicacacao.AppService.ClienteAppService/<Consultar>d__4": {
+        "System.Void Stone.Clientes.Aplicacacao.AppService.ClienteAppService/<Consultar>d__4::MoveNext()": {
+          "Lines": {
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "50": 0,
+            "52": 0,
+            "54": 0
+          },
+          "Branches": [
+            {
+              "Line": 47,
+              "Offset": 181,
+              "EndOffset": 183,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 181,
+              "EndOffset": 230,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Stone.Clientes.Aplicacacao.AppService.ClienteAppService/<ConsultarPorCpf>d__5": {
+        "System.Void Stone.Clientes.Aplicacacao.AppService.ClienteAppService/<ConsultarPorCpf>d__5::MoveNext()": {
+          "Lines": {
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "66": 0
+          },
+          "Branches": [
+            {
+              "Line": 59,
+              "Offset": 197,
+              "EndOffset": 199,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 59,
+              "Offset": 197,
+              "EndOffset": 243,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "Stone.Clientes.Dominio.dll": {
+    "C:\\Trabalho\\Stone\\Stone.Clientes\\Stone.Clientes.Dominio\\Validations\\ClienteValidation.cs": {
+      "Stone.Clientes.Dominio.Validations.ClienteValidation": {
+        "Stone.Clientes.Infra.CrossCutting.Utils.Interfaces.IOperation`1<Stone.Clientes.Dominio.Entities.Cliente> Stone.Clientes.Dominio.Validations.ClienteValidation::Validar(Stone.Clientes.Dominio.Entities.Cliente)": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "25": 0,
+            "27": 0,
+            "28": 0,
+            "30": 0,
+            "31": 0,
+            "33": 0,
+            "35": 0
+          },
+          "Branches": [
+            {
+              "Line": 22,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 7,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 67,
+              "EndOffset": 69,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 67,
+              "EndOffset": 86,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Stone.Clientes.Dominio.Validations.ClienteValidation::ValidarCpf(System.String&,System.Collections.Generic.List`1<Stone.Clientes.Infra.CrossCutting.Utils.DetalhesDaMensagem>)": {
+          "Lines": {
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0
+          },
+          "Branches": [
+            {
+              "Line": 39,
+              "Offset": 10,
+              "EndOffset": 12,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 39,
+              "Offset": 10,
+              "EndOffset": 61,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 50,
+              "Offset": 80,
+              "EndOffset": 82,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 50,
+              "Offset": 80,
+              "EndOffset": 129,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Stone.Clientes.Dominio.Validations.ClienteValidation::ValidaDadosVazios(Stone.Clientes.Dominio.Entities.Cliente,System.Collections.Generic.List`1<Stone.Clientes.Infra.CrossCutting.Utils.DetalhesDaMensagem>)": {
+          "Lines": {
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "112": 0
+          },
+          "Branches": [
+            {
+              "Line": 65,
+              "Offset": 14,
+              "EndOffset": 16,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 65,
+              "Offset": 14,
+              "EndOffset": 74,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 77,
+              "Offset": 95,
+              "EndOffset": 97,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 77,
+              "Offset": 95,
+              "EndOffset": 168,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 89,
+              "Offset": 182,
+              "EndOffset": 184,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 89,
+              "Offset": 182,
+              "EndOffset": 242,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 100,
+              "Offset": 259,
+              "EndOffset": 261,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 100,
+              "Offset": 259,
+              "EndOffset": 328,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Stone.Clientes.Dominio.Validations.ClienteValidation::.ctor(Stone.Clientes.Dominio.Validations.Interfaces.ICpfValidation)": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.Clientes\\Stone.Clientes.Dominio\\Validations\\CpfValidation.cs": {
+      "Stone.Clientes.Dominio.Validations.CpfValidation": {
+        "System.Boolean Stone.Clientes.Dominio.Validations.CpfValidation::Validar(System.String)": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "23": 0,
+            "24": 0,
+            "26": 0,
+            "27": 0,
+            "29": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "35": 0,
+            "36": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0
+          },
+          "Branches": [
+            {
+              "Line": 20,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 20,
+              "Offset": 7,
+              "EndOffset": 17,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 20,
+              "Offset": 22,
+              "EndOffset": 24,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 20,
+              "Offset": 22,
+              "EndOffset": 32,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 72,
+              "EndOffset": 74,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 72,
+              "EndOffset": 82,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 149,
+              "EndOffset": 99,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 149,
+              "EndOffset": 151,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 158,
+              "EndOffset": 160,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 158,
+              "EndOffset": 166,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 241,
+              "EndOffset": 191,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 241,
+              "EndOffset": 243,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 44,
+              "Offset": 250,
+              "EndOffset": 252,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 44,
+              "Offset": 250,
+              "EndOffset": 258,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Stone.Clientes.Dominio.Validations.CpfValidation::.ctor(Stone.Clientes.Infra.CrossCutting.Utils.Interfaces.ICpfMask)": {
+          "Lines": {
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "17": 0
+          },
+          "Branches": []
+        },
+        "System.Void Stone.Clientes.Dominio.Validations.CpfValidation::.cctor()": {
+          "Lines": {
+            "10": 0,
+            "11": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.Clientes\\Stone.Clientes.Dominio\\Services\\ClienteService.cs": {
+      "Stone.Clientes.Dominio.Services.ClienteService": {
+        "Stone.Clientes.Infra.CrossCutting.Utils.Interfaces.IOperation`1<System.Collections.Generic.List`1<Stone.Clientes.Dominio.Entities.Cliente>> Stone.Clientes.Dominio.Services.ClienteService::CriarFalhaConsultaGeralCliente(System.Int32&)": {
+          "Lines": {
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0
+          },
+          "Branches": []
+        },
+        "System.Void Stone.Clientes.Dominio.Services.ClienteService::.ctor(Stone.Clientes.Dominio.Validations.Interfaces.IClienteValidation,Stone.Clientes.Dominio.Repository.Interfaces.IClienteWriterRepository,Stone.Clientes.Dominio.Repository.Interfaces.IClienteQueryRepository,Stone.Clientes.Dominio.Validations.Interfaces.ICpfValidation)": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0
+          },
+          "Branches": []
+        }
+      },
+      "Stone.Clientes.Dominio.Services.ClienteService/<Cadastrar>d__5": {
+        "System.Void Stone.Clientes.Dominio.Services.ClienteService/<Cadastrar>d__5::MoveNext()": {
+          "Lines": {
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "42": 0,
+            "43": 0
+          },
+          "Branches": [
+            {
+              "Line": 32,
+              "Offset": 73,
+              "EndOffset": 75,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 73,
+              "EndOffset": 87,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 237,
+              "EndOffset": 239,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 237,
+              "EndOffset": 251,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 39,
+              "Offset": 404,
+              "EndOffset": 406,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 39,
+              "Offset": 404,
+              "EndOffset": 423,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Stone.Clientes.Dominio.Services.ClienteService/<Consultar>d__6": {
+        "System.Void Stone.Clientes.Dominio.Services.ClienteService/<Consultar>d__6::MoveNext()": {
+          "Lines": {
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "54": 0,
+            "56": 0
+          },
+          "Branches": [
+            {
+              "Line": 47,
+              "Offset": 29,
+              "EndOffset": 31,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 29,
+              "EndOffset": 54,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 51,
+              "Offset": 204,
+              "EndOffset": 206,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 51,
+              "Offset": 204,
+              "EndOffset": 239,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Stone.Clientes.Dominio.Services.ClienteService/<ConsultarPorCpf>d__7": {
+        "System.Void Stone.Clientes.Dominio.Services.ClienteService/<ConsultarPorCpf>d__7::MoveNext()": {
+          "Lines": {
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "68": 0,
+            "70": 0,
+            "71": 0
+          },
+          "Branches": [
+            {
+              "Line": 62,
+              "Offset": 51,
+              "EndOffset": 56,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 65,
+              "Offset": 207,
+              "EndOffset": 209,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 65,
+              "Offset": 207,
+              "EndOffset": 223,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 62,
+              "Offset": 51,
+              "EndOffset": 240,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Stone.Clientes.Dominio.Services.ClienteService/<ValidarCpfExistente>d__8": {
+        "System.Void Stone.Clientes.Dominio.Services.ClienteService/<ValidarCpfExistente>d__8::MoveNext()": {
+          "Lines": {
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "88": 0,
+            "89": 0
+          },
+          "Branches": [
+            {
+              "Line": 78,
+              "Offset": 169,
+              "EndOffset": 171,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 78,
+              "Offset": 169,
+              "EndOffset": 241,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.Clientes\\Stone.Clientes.Dominio\\Entities\\BaseEntity.cs": {
+      "Stone.Clientes.Dominio.Entities.BaseEntity": {
+        "System.Guid Stone.Clientes.Dominio.Entities.BaseEntity::get_Id()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Void Stone.Clientes.Dominio.Entities.BaseEntity::.ctor()": {
+          "Lines": {
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.Clientes\\Stone.Clientes.Dominio\\Entities\\Cliente.cs": {
+      "Stone.Clientes.Dominio.Entities.Cliente": {
+        "System.String Stone.Clientes.Dominio.Entities.Cliente::get_Nome()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.String Stone.Clientes.Dominio.Entities.Cliente::get_Estado()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.String Stone.Clientes.Dominio.Entities.Cliente::get_Cpf()": {
+          "Lines": {
+            "21": 0
+          },
+          "Branches": []
+        },
+        "System.Void Stone.Clientes.Dominio.Entities.Cliente::.ctor(System.String,System.String,System.String)": {
+          "Lines": {
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.Void Stone.Clientes.Dominio.Entities.Cliente::.ctor(System.Guid,System.String,System.String,System.String)": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Stone.Clientes.Infra.CrossCutting.IoC.dll": {
+    "C:\\Trabalho\\Stone\\Stone.Clientes\\Stone.Clientes.Infra.IoC\\BootStrapper.cs": {
+      "Stone.Clientes.Infra.CrossCutting.IoC.BootStrapper": {
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection Stone.Clientes.Infra.CrossCutting.IoC.BootStrapper::RegisterServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "33": 9,
+            "34": 9,
+            "35": 9,
+            "36": 9,
+            "37": 9,
+            "39": 9,
+            "40": 9
+          },
+          "Branches": []
+        },
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection Stone.Clientes.Infra.CrossCutting.IoC.BootStrapper::AddHealthChecksApiCliente(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "43": 9,
+            "44": 9,
+            "45": 9,
+            "46": 9,
+            "47": 9,
+            "48": 9,
+            "49": 9
+          },
+          "Branches": []
+        },
+        "System.Void Stone.Clientes.Infra.CrossCutting.IoC.BootStrapper::UseHealthChecksApiCliente(Microsoft.AspNetCore.Builder.IApplicationBuilder)": {
+          "Lines": {
+            "52": 9,
+            "53": 9,
+            "54": 9,
+            "55": 9,
+            "56": 9,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 9,
+            "68": 9
+          },
+          "Branches": []
+        },
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection Stone.Clientes.Infra.CrossCutting.IoC.BootStrapper::AddValidations(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "71": 9,
+            "72": 9,
+            "73": 9,
+            "74": 9,
+            "75": 9
+          },
+          "Branches": []
+        },
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection Stone.Clientes.Infra.CrossCutting.IoC.BootStrapper::AddRepository(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "78": 9,
+            "79": 9,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 9,
+            "87": 9,
+            "88": 9,
+            "91": 9,
+            "92": 9,
+            "94": 9,
+            "95": 9
+          },
+          "Branches": [
+            {
+              "Line": 88,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 11,
+              "EndOffset": 19,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection Stone.Clientes.Infra.CrossCutting.IoC.BootStrapper::AddUtil(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Boolean)": {
+          "Lines": {
+            "98": 9,
+            "99": 9,
+            "100": 0,
+            "102": 9,
+            "104": 9,
+            "105": 9
+          },
+          "Branches": [
+            {
+              "Line": 99,
+              "Offset": 4,
+              "EndOffset": 6,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 99,
+              "Offset": 4,
+              "EndOffset": 12,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 9
+            }
+          ]
+        }
+      }
+    }
+  },
+  "Stone.Clientes.Infra.CrossCutting.Utils.dll": {
+    "C:\\Trabalho\\Stone\\Stone.Clientes\\Stone.Clientes.Infra.CrossCutting.Utils\\DetalhesDaMensagem.cs": {
+      "Stone.Clientes.Infra.CrossCutting.Utils.DetalhesDaMensagem": {
+        "System.String Stone.Clientes.Infra.CrossCutting.Utils.DetalhesDaMensagem::get_Campo()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.String Stone.Clientes.Infra.CrossCutting.Utils.DetalhesDaMensagem::get_Mensagem()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.String Stone.Clientes.Infra.CrossCutting.Utils.DetalhesDaMensagem::get_Valor()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.Clientes\\Stone.Clientes.Infra.CrossCutting.Utils\\Mensagens.cs": {
+      "Stone.Clientes.Infra.CrossCutting.Utils.Mensagens": {
+        "System.Collections.Generic.List`1<Stone.Clientes.Infra.CrossCutting.Utils.DetalhesDaMensagem> Stone.Clientes.Infra.CrossCutting.Utils.Mensagens::get_Campos()": {
+          "Lines": {
+            "19": 8
+          },
+          "Branches": []
+        },
+        "System.String Stone.Clientes.Infra.CrossCutting.Utils.Mensagens::get_Mensagem()": {
+          "Lines": {
+            "20": 8
+          },
+          "Branches": []
+        },
+        "System.Void Stone.Clientes.Infra.CrossCutting.Utils.Mensagens::AdicionarMensagem(Stone.Clientes.Infra.CrossCutting.Utils.DetalhesDaMensagem)": {
+          "Lines": {
+            "22": 5,
+            "23": 5,
+            "24": 0,
+            "25": 5
+          },
+          "Branches": [
+            {
+              "Line": 23,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 23,
+              "Offset": 7,
+              "EndOffset": 22,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 5
+            }
+          ]
+        },
+        "System.Void Stone.Clientes.Infra.CrossCutting.Utils.Mensagens::.ctor(System.String&,Stone.Clientes.Infra.CrossCutting.Utils.DetalhesDaMensagem)": {
+          "Lines": {
+            "7": 5,
+            "8": 5,
+            "9": 5,
+            "10": 5,
+            "11": 5,
+            "12": 5
+          },
+          "Branches": []
+        },
+        "System.Void Stone.Clientes.Infra.CrossCutting.Utils.Mensagens::.ctor(System.String&,System.Collections.Generic.List`1<Stone.Clientes.Infra.CrossCutting.Utils.DetalhesDaMensagem>)": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0
+          },
+          "Branches": [
+            {
+              "Line": 17,
+              "Offset": 20,
+              "EndOffset": 22,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 17,
+              "Offset": 20,
+              "EndOffset": 28,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.Clientes\\Stone.Clientes.Infra.CrossCutting.Utils\\OperationFail.cs": {
+      "Stone.Clientes.Infra.CrossCutting.Utils.OperationFail`1": {
+        "Stone.Clientes.Infra.CrossCutting.Utils.Mensagens Stone.Clientes.Infra.CrossCutting.Utils.OperationFail`1::get_Mensagens()": {
+          "Lines": {
+            "20": 8
+          },
+          "Branches": []
+        },
+        "System.Void Stone.Clientes.Infra.CrossCutting.Utils.OperationFail`1::.ctor(System.String&,Stone.Clientes.Infra.CrossCutting.Utils.DetalhesDaMensagem)": {
+          "Lines": {
+            "9": 5,
+            "10": 5,
+            "11": 5,
+            "12": 5
+          },
+          "Branches": []
+        },
+        "System.Void Stone.Clientes.Infra.CrossCutting.Utils.OperationFail`1::.ctor(System.String&,System.Collections.Generic.List`1<Stone.Clientes.Infra.CrossCutting.Utils.DetalhesDaMensagem>)": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.Clientes\\Stone.Clientes.Infra.CrossCutting.Utils\\OperationSuccess.cs": {
+      "Stone.Clientes.Infra.CrossCutting.Utils.OperationSuccess`1": {
+        "T Stone.Clientes.Infra.CrossCutting.Utils.OperationSuccess`1::get_Data()": {
+          "Lines": {
+            "13": 3
+          },
+          "Branches": []
+        },
+        "System.Void Stone.Clientes.Infra.CrossCutting.Utils.OperationSuccess`1::.ctor(T)": {
+          "Lines": {
+            "8": 3,
+            "9": 3,
+            "10": 3,
+            "11": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.Clientes\\Stone.Clientes.Infra.CrossCutting.Utils\\Result.cs": {
+      "Stone.Clientes.Infra.CrossCutting.Utils.Result": {
+        "Stone.Clientes.Infra.CrossCutting.Utils.Interfaces.IOperation`1<T> Stone.Clientes.Infra.CrossCutting.Utils.Result::CreateSuccess()": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0
+          },
+          "Branches": []
+        },
+        "Stone.Clientes.Infra.CrossCutting.Utils.Interfaces.IOperation`1<T> Stone.Clientes.Infra.CrossCutting.Utils.Result::CreateSuccess(T)": {
+          "Lines": {
+            "14": 3,
+            "15": 3,
+            "16": 3
+          },
+          "Branches": []
+        },
+        "Stone.Clientes.Infra.CrossCutting.Utils.Interfaces.IOperation`1<T> Stone.Clientes.Infra.CrossCutting.Utils.Result::CreateFailure(System.String&,Stone.Clientes.Infra.CrossCutting.Utils.DetalhesDaMensagem)": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0
+          },
+          "Branches": []
+        },
+        "Stone.Clientes.Infra.CrossCutting.Utils.Interfaces.IOperation`1<T> Stone.Clientes.Infra.CrossCutting.Utils.Result::CreateFailure(System.String&)": {
+          "Lines": {
+            "24": 5,
+            "25": 5,
+            "26": 5
+          },
+          "Branches": []
+        },
+        "Stone.Clientes.Infra.CrossCutting.Utils.Interfaces.IOperation`1<T> Stone.Clientes.Infra.CrossCutting.Utils.Result::CreateFailure(System.String&,System.Collections.Generic.List`1<Stone.Clientes.Infra.CrossCutting.Utils.DetalhesDaMensagem>)": {
+          "Lines": {
+            "29": 0,
+            "30": 0,
+            "31": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.Clientes\\Stone.Clientes.Infra.CrossCutting.Utils\\Masks\\CpfMask.cs": {
+      "Stone.Clientes.Infra.CrossCutting.Utils.Masks.CpfMask": {
+        "System.String Stone.Clientes.Infra.CrossCutting.Utils.Masks.CpfMask::RemoveMaskCpf(System.String&)": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.Clientes\\Stone.Clientes.Infra.CrossCutting.Utils\\Configuracoes\\VariaveisDeAmbienteLocal.cs": {
+      "Stone.Clientes.Infra.CrossCutting.Utils.Configuracoes.VariaveisDeAmbienteLocal": {
+        "System.Void Stone.Clientes.Infra.CrossCutting.Utils.Configuracoes.VariaveisDeAmbienteLocal::CarregarVariaveis()": {
+          "Lines": {
+            "11": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0
+          },
+          "Branches": [
+            {
+              "Line": 17,
+              "Offset": 46,
+              "EndOffset": 48,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 17,
+              "Offset": 46,
+              "EndOffset": 58,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Stone.Clientes.Infra.CrossCutting.Utils.Configuracoes.VariaveisDeAmbienteLocal::ConfigurarVariaveisDeAmbienteStone(System.String&)": {
+          "Lines": {
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "31": 0,
+            "32": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0
+          },
+          "Branches": [
+            {
+              "Line": 25,
+              "Offset": 8,
+              "EndOffset": 10,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 8,
+              "EndOffset": 14,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 20,
+              "EndOffset": 22,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 20,
+              "EndOffset": 28,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 71,
+              "EndOffset": 75,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 71,
+              "EndOffset": 135,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.IO.DirectoryInfo Stone.Clientes.Infra.CrossCutting.Utils.Configuracoes.VariaveisDeAmbienteLocal::ObterDiretorio(System.String&)": {
+          "Lines": {
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "53": 0,
+            "54": 0
+          },
+          "Branches": [
+            {
+              "Line": 48,
+              "Offset": 47,
+              "EndOffset": 14,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 24,
+              "EndOffset": 26,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 24,
+              "EndOffset": 44,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 47,
+              "EndOffset": 49,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "Stone.Clientes.Infra.Data.dll": {
+    "C:\\Trabalho\\Stone\\Stone.Clientes\\Stone.Clientes.Infra.Data\\Writer\\ClienteWriterRepository.cs": {
+      "Stone.Clientes.Infra.Data.Repository.ClienteWriterRepository": {
+        "System.Void Stone.Clientes.Infra.Data.Repository.ClienteWriterRepository::.ctor(MongoDB.Driver.IMongoDatabase)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": []
+        }
+      },
+      "Stone.Clientes.Infra.Data.Repository.ClienteWriterRepository/<Cadastrar>d__3": {
+        "System.Void Stone.Clientes.Infra.Data.Repository.ClienteWriterRepository/<Cadastrar>d__3::MoveNext()": {
+          "Lines": {
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.Clientes\\Stone.Clientes.Infra.Data\\Query\\ClienteQueryRepository.cs": {
+      "Stone.Clientes.Infra.Data.Query.ClienteQueryRepository": {
+        "System.Void Stone.Clientes.Infra.Data.Query.ClienteQueryRepository::.ctor(MongoDB.Driver.IMongoDatabase,Stone.Clientes.Infra.Data.MongoDb.Configurations.Interfaces.IClienteQueryRepositoryConfiguration)": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0
+          },
+          "Branches": []
+        }
+      },
+      "Stone.Clientes.Infra.Data.Query.ClienteQueryRepository/<Consultar>d__4": {
+        "System.Void Stone.Clientes.Infra.Data.Query.ClienteQueryRepository/<Consultar>d__4::MoveNext()": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "27": 0
+          },
+          "Branches": []
+        }
+      },
+      "Stone.Clientes.Infra.Data.Query.ClienteQueryRepository/<Consultar>d__5": {
+        "System.Void Stone.Clientes.Infra.Data.Query.ClienteQueryRepository/<Consultar>d__5::MoveNext()": {
+          "Lines": {
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.Clientes\\Stone.Clientes.Infra.Data\\MongoDb\\MongoDatabaseProvider.cs": {
+      "Stone.Clientes.Infra.Data.MongoDb.MongoDatabaseProvider": {
+        "MongoDB.Driver.IMongoDatabase Stone.Clientes.Infra.Data.MongoDb.MongoDatabaseProvider::GetDatabase(System.String,System.String)": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.Clientes\\Stone.Clientes.Infra.Data\\MongoDb\\Configurations\\ClienteQueryRepositoryConfiguration.cs": {
+      "Stone.Clientes.Infra.Data.MongoDb.Configurations.ClienteQueryRepositoryConfiguration": {
+        "System.Int32 Stone.Clientes.Infra.Data.MongoDb.Configurations.ClienteQueryRepositoryConfiguration::ObtenhaTamanhoConfiguracao()": {
+          "Lines": {
+            "17": 0,
+            "18": 0,
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.Void Stone.Clientes.Infra.Data.MongoDb.Configurations.ClienteQueryRepositoryConfiguration::.ctor(System.Int32)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": [
+            {
+              "Line": 14,
+              "Offset": 10,
+              "EndOffset": 12,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 14,
+              "Offset": 10,
+              "EndOffset": 15,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}

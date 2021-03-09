@@ -1,0 +1,2010 @@
+{
+  "Stone.Cobrancas.API.dll": {
+    "C:\\Trabalho\\Stone\\Stone.Cobrancas\\Stone.Cobrancas.API\\Program.cs": {
+      "Stone.Cobrancas.API.Program": {
+        "System.Void Stone.Cobrancas.API.Program::Main(System.String[])": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.Extensions.Hosting.IHostBuilder Stone.Cobrancas.API.Program::CreateHostBuilder(System.String[])": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.Cobrancas\\Stone.Cobrancas.API\\Startup.cs": {
+      "Stone.Cobrancas.API.Startup": {
+        "Microsoft.Extensions.Configuration.IConfiguration Stone.Cobrancas.API.Startup::get_Configuration()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.Void Stone.Cobrancas.API.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "25": 9,
+            "26": 9,
+            "27": 9,
+            "28": 9,
+            "30": 9,
+            "31": 9,
+            "32": 9,
+            "33": 9
+          },
+          "Branches": []
+        },
+        "System.Void Stone.Cobrancas.API.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)": {
+          "Lines": {
+            "36": 9,
+            "37": 9,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "42": 9,
+            "44": 9,
+            "46": 9,
+            "48": 9,
+            "50": 9,
+            "52": 9,
+            "54": 9,
+            "55": 9,
+            "56": 9,
+            "57": 18,
+            "58": 9
+          },
+          "Branches": [
+            {
+              "Line": 37,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 37,
+              "Offset": 9,
+              "EndOffset": 20,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 9
+            }
+          ]
+        },
+        "System.Void Stone.Cobrancas.API.Startup::.ctor(Microsoft.Extensions.Configuration.IConfiguration,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)": {
+          "Lines": {
+            "16": 9,
+            "17": 9,
+            "18": 9,
+            "19": 9,
+            "20": 9
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.Cobrancas\\Stone.Cobrancas.API\\Middlewares\\GlobalExceptionHandlerMiddleware.cs": {
+      "Stone.Cobrancas.API.Middlewares.GlobalExceptionHandlerMiddleware": {
+        "System.Threading.Tasks.Task Stone.Cobrancas.API.Middlewares.GlobalExceptionHandlerMiddleware::HandleExceptionAsync(Microsoft.AspNetCore.Http.HttpContext,System.Exception)": {
+          "Lines": {
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0
+          },
+          "Branches": []
+        },
+        "System.Void Stone.Cobrancas.API.Middlewares.GlobalExceptionHandlerMiddleware::.ctor(Microsoft.Extensions.Logging.ILogger`1<Stone.Cobrancas.API.Middlewares.GlobalExceptionHandlerMiddleware>)": {
+          "Lines": {
+            "17": 9,
+            "18": 9,
+            "19": 9,
+            "20": 9
+          },
+          "Branches": []
+        },
+        "System.Void Stone.Cobrancas.API.Middlewares.GlobalExceptionHandlerMiddleware::.cctor()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        }
+      },
+      "Stone.Cobrancas.API.Middlewares.GlobalExceptionHandlerMiddleware/<InvokeAsync>d__4": {
+        "System.Void Stone.Cobrancas.API.Middlewares.GlobalExceptionHandlerMiddleware/<InvokeAsync>d__4::MoveNext()": {
+          "Lines": {
+            "23": 9,
+            "25": 9,
+            "26": 9,
+            "28": 9,
+            "29": 9,
+            "31": 9,
+            "32": 9,
+            "33": 9,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 9
+          },
+          "Branches": [
+            {
+              "Line": 28,
+              "Offset": 95,
+              "EndOffset": 97,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 9
+            },
+            {
+              "Line": 28,
+              "Offset": 95,
+              "EndOffset": 122,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 9
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.Cobrancas\\Stone.Cobrancas.API\\Middlewares\\GlobalExceptionHandlerMiddlewareExtensions.cs": {
+      "Stone.Cobrancas.API.Middlewares.GlobalExceptionHandlerMiddlewareExtensions": {
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection Stone.Cobrancas.API.Middlewares.GlobalExceptionHandlerMiddlewareExtensions::AddGlobalExceptionHandlerMiddleware(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "10": 9,
+            "11": 9,
+            "12": 9
+          },
+          "Branches": []
+        },
+        "System.Void Stone.Cobrancas.API.Middlewares.GlobalExceptionHandlerMiddlewareExtensions::UseGlobalExceptionHandlerMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder)": {
+          "Lines": {
+            "15": 9,
+            "16": 9,
+            "17": 9
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.Cobrancas\\Stone.Cobrancas.API\\Controllers\\V1\\CobrancasController.cs": {
+      "Stone.Cobrancas.API.Controllers.V1.CobrancasController": {
+        "System.Void Stone.Cobrancas.API.Controllers.V1.CobrancasController::.ctor(Stone.Cobrancas.Aplicacacao.AppService.Interfaces.ICobrancaAppService)": {
+          "Lines": {
+            "17": 6,
+            "18": 6,
+            "19": 6,
+            "20": 6
+          },
+          "Branches": []
+        }
+      },
+      "Stone.Cobrancas.API.Controllers.V1.CobrancasController/<RegistrarCobranca>d__2": {
+        "System.Void Stone.Cobrancas.API.Controllers.V1.CobrancasController/<RegistrarCobranca>d__2::MoveNext()": {
+          "Lines": {
+            "27": 2,
+            "28": 2,
+            "29": 2,
+            "30": 1,
+            "32": 1,
+            "33": 2
+          },
+          "Branches": [
+            {
+              "Line": 29,
+              "Offset": 169,
+              "EndOffset": 171,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 29,
+              "Offset": 169,
+              "EndOffset": 191,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "Stone.Cobrancas.API.Controllers.V1.CobrancasController/<ConsultarCobranca>d__3": {
+        "System.Void Stone.Cobrancas.API.Controllers.V1.CobrancasController/<ConsultarCobranca>d__3::MoveNext()": {
+          "Lines": {
+            "37": 2,
+            "38": 2,
+            "40": 2,
+            "41": 1,
+            "43": 1,
+            "44": 2
+          },
+          "Branches": [
+            {
+              "Line": 40,
+              "Offset": 175,
+              "EndOffset": 177,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 40,
+              "Offset": 175,
+              "EndOffset": 197,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "Stone.Cobrancas.API.Controllers.V1.CobrancasController/<ConsultarCobranca>d__4": {
+        "System.Void Stone.Cobrancas.API.Controllers.V1.CobrancasController/<ConsultarCobranca>d__4::MoveNext()": {
+          "Lines": {
+            "48": 2,
+            "49": 2,
+            "51": 2,
+            "52": 1,
+            "54": 1,
+            "55": 2
+          },
+          "Branches": [
+            {
+              "Line": 51,
+              "Offset": 175,
+              "EndOffset": 177,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 51,
+              "Offset": 175,
+              "EndOffset": 197,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.Cobrancas\\Stone.Cobrancas.API\\Configurations\\Swagger\\SwaggerConfig.cs": {
+      "Stone.Cobrancas.API.Configurations.Swagger.SwaggerConfig": {
+        "System.Void Stone.Cobrancas.API.Configurations.Swagger.SwaggerConfig::AddSwaggerConfiguration(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "10": 9,
+            "11": 9,
+            "12": 9,
+            "13": 9,
+            "14": 9,
+            "15": 9,
+            "16": 9,
+            "17": 9,
+            "18": 9,
+            "19": 9,
+            "20": 9,
+            "21": 9,
+            "22": 9,
+            "23": 9,
+            "24": 9,
+            "25": 18,
+            "26": 9
+          },
+          "Branches": []
+        },
+        "System.Void Stone.Cobrancas.API.Configurations.Swagger.SwaggerConfig::UseSwaggerSetup(Microsoft.AspNetCore.Builder.IApplicationBuilder)": {
+          "Lines": {
+            "29": 9,
+            "30": 9,
+            "31": 18,
+            "32": 9
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Stone.Cobrancas.Aplicacacao.dll": {
+    "C:\\Trabalho\\Stone\\Stone.Cobrancas\\Stone.Cobrancas.Aplicacacao\\Response\\CobrancaResponse.cs": {
+      "Stone.Cobrancas.Aplicacacao.Response.CobrancaResponse": {
+        "System.Guid Stone.Cobrancas.Aplicacacao.Response.CobrancaResponse::get_Id()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime Stone.Cobrancas.Aplicacacao.Response.CobrancaResponse::get_DataVencimento()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.String Stone.Cobrancas.Aplicacacao.Response.CobrancaResponse::get_Cpf()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal Stone.Cobrancas.Aplicacacao.Response.CobrancaResponse::get_ValorCobranca()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.Cobrancas\\Stone.Cobrancas.Aplicacacao\\Request\\CobrancaRequest.cs": {
+      "Stone.Cobrancas.Aplicacacao.Request.CobrancaRequest": {
+        "System.DateTime Stone.Cobrancas.Aplicacacao.Request.CobrancaRequest::get_DataVencimento()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.String Stone.Cobrancas.Aplicacacao.Request.CobrancaRequest::get_Cpf()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal Stone.Cobrancas.Aplicacacao.Request.CobrancaRequest::get_ValorCobranca()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.Cobrancas\\Stone.Cobrancas.Aplicacacao\\Mappers\\CobrancaRequestMapper.cs": {
+      "Stone.Cobrancas.Aplicacacao.Mappers.CobrancaRequestMapper": {
+        "Stone.Cobrancas.Dominio.Entities.Cobranca Stone.Cobrancas.Aplicacacao.Mappers.CobrancaRequestMapper::ConverterCobrancaRequestEmCobranca(Stone.Cobrancas.Aplicacacao.Request.CobrancaRequest)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.Cobrancas\\Stone.Cobrancas.Aplicacacao\\Mappers\\CobrancaResponseMapper.cs": {
+      "Stone.Cobrancas.Aplicacacao.Mappers.CobrancaResponseMapper": {
+        "Stone.Cobrancas.Aplicacacao.Response.CobrancaResponse Stone.Cobrancas.Aplicacacao.Mappers.CobrancaResponseMapper::ConverterCobrancaEmCobrancaResponse(Stone.Cobrancas.Dominio.Entities.Cobranca)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.Cobrancas\\Stone.Cobrancas.Aplicacacao\\AppService\\CobrancaAppService.cs": {
+      "Stone.Cobrancas.Aplicacacao.AppService.CobrancaAppService": {
+        "System.Void Stone.Cobrancas.Aplicacacao.AppService.CobrancaAppService::.ctor(Stone.Cobrancas.Dominio.Services.Interfaces.ICobrancaService,Stone.Cobrancas.Infra.CrossCutting.Utils.Interfaces.ICpfMask)": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0
+          },
+          "Branches": []
+        }
+      },
+      "Stone.Cobrancas.Aplicacacao.AppService.CobrancaAppService/<Cadastrar>d__3": {
+        "System.Void Stone.Cobrancas.Aplicacacao.AppService.CobrancaAppService/<Cadastrar>d__3::MoveNext()": {
+          "Lines": {
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "33": 0,
+            "34": 0,
+            "36": 0,
+            "37": 0,
+            "39": 0,
+            "41": 0
+          },
+          "Branches": [
+            {
+              "Line": 26,
+              "Offset": 29,
+              "EndOffset": 31,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 29,
+              "EndOffset": 50,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 33,
+              "Offset": 279,
+              "EndOffset": 281,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 33,
+              "Offset": 279,
+              "EndOffset": 324,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Stone.Cobrancas.Aplicacacao.AppService.CobrancaAppService/<>c": {
+        "Stone.Cobrancas.Aplicacacao.Response.CobrancaResponse Stone.Cobrancas.Aplicacacao.AppService.CobrancaAppService/<>c::<ConsultarCobrancasPorCpf>b__4_0(Stone.Cobrancas.Dominio.Entities.Cobranca)": {
+          "Lines": {
+            "54": 0
+          },
+          "Branches": []
+        },
+        "Stone.Cobrancas.Aplicacacao.Response.CobrancaResponse Stone.Cobrancas.Aplicacacao.AppService.CobrancaAppService/<>c::<ConsultarCobrancasPorMes>b__5_0(Stone.Cobrancas.Dominio.Entities.Cobranca)": {
+          "Lines": {
+            "70": 0
+          },
+          "Branches": []
+        }
+      },
+      "Stone.Cobrancas.Aplicacacao.AppService.CobrancaAppService/<ConsultarCobrancasPorCpf>d__4": {
+        "System.Void Stone.Cobrancas.Aplicacacao.AppService.CobrancaAppService/<ConsultarCobrancasPorCpf>d__4::MoveNext()": {
+          "Lines": {
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "52": 0,
+            "53": 0,
+            "55": 0,
+            "57": 0
+          },
+          "Branches": [
+            {
+              "Line": 46,
+              "Offset": 187,
+              "EndOffset": 189,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 187,
+              "EndOffset": 237,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Stone.Cobrancas.Aplicacacao.AppService.CobrancaAppService/<ConsultarCobrancasPorMes>d__5": {
+        "System.Void Stone.Cobrancas.Aplicacacao.AppService.CobrancaAppService/<ConsultarCobrancasPorMes>d__5::MoveNext()": {
+          "Lines": {
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "68": 0,
+            "69": 0,
+            "71": 0,
+            "72": 0
+          },
+          "Branches": [
+            {
+              "Line": 62,
+              "Offset": 187,
+              "EndOffset": 189,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 62,
+              "Offset": 187,
+              "EndOffset": 237,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "Stone.Cobrancas.Dominio.dll": {
+    "C:\\Trabalho\\Stone\\Stone.Cobrancas\\Stone.Cobrancas.Dominio\\Validations\\CobrancaValidation.cs": {
+      "Stone.Cobrancas.Dominio.Validations.CobrancaValidation": {
+        "Stone.Cobrancas.Infra.CrossCutting.Utils.Interfaces.IOperation`1<Stone.Cobrancas.Dominio.Entities.Cobranca> Stone.Cobrancas.Dominio.Validations.CobrancaValidation::Validar(Stone.Cobrancas.Dominio.Entities.Cobranca)": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "25": 0,
+            "27": 0,
+            "28": 0,
+            "30": 0,
+            "31": 0,
+            "33": 0,
+            "36": 0
+          },
+          "Branches": [
+            {
+              "Line": 22,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 7,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 64,
+              "EndOffset": 66,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 64,
+              "EndOffset": 83,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Stone.Cobrancas.Dominio.Validations.CobrancaValidation::ValidarCpf(System.String,System.Collections.Generic.List`1<Stone.Cobrancas.Infra.CrossCutting.Utils.DetalhesDaMensagem>)": {
+          "Lines": {
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0
+          },
+          "Branches": [
+            {
+              "Line": 40,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 9,
+              "EndOffset": 59,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 51,
+              "Offset": 77,
+              "EndOffset": 79,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 51,
+              "Offset": 77,
+              "EndOffset": 125,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Stone.Cobrancas.Dominio.Validations.CobrancaValidation::ValidaDadosVazios(Stone.Cobrancas.Dominio.Entities.Cobranca,System.Collections.Generic.List`1<Stone.Cobrancas.Infra.CrossCutting.Utils.DetalhesDaMensagem>)": {
+          "Lines": {
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0
+          },
+          "Branches": [
+            {
+              "Line": 66,
+              "Offset": 23,
+              "EndOffset": 25,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 66,
+              "Offset": 23,
+              "EndOffset": 86,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 78,
+              "Offset": 122,
+              "EndOffset": 124,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 78,
+              "Offset": 122,
+              "EndOffset": 183,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 90,
+              "Offset": 202,
+              "EndOffset": 204,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 90,
+              "Offset": 202,
+              "EndOffset": 266,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 102,
+              "Offset": 292,
+              "EndOffset": 294,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 102,
+              "Offset": 292,
+              "EndOffset": 374,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Stone.Cobrancas.Dominio.Validations.CobrancaValidation::.ctor(Stone.Cobrancas.Dominio.Validations.Interfaces.ICpfValidation)": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.Cobrancas\\Stone.Cobrancas.Dominio\\Validations\\ConsultarCobrancasValidation.cs": {
+      "Stone.Cobrancas.Dominio.Validations.ConsultarCobrancasValidation": {
+        "Stone.Cobrancas.Infra.CrossCutting.Utils.Interfaces.IOperation`1<System.Collections.Generic.List`1<Stone.Cobrancas.Dominio.Entities.Cobranca>> Stone.Cobrancas.Dominio.Validations.ConsultarCobrancasValidation::Validar(System.String,System.Int32)": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "26": 0,
+            "27": 0,
+            "29": 0,
+            "30": 0
+          },
+          "Branches": [
+            {
+              "Line": 26,
+              "Offset": 34,
+              "EndOffset": 36,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 34,
+              "EndOffset": 53,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "Stone.Cobrancas.Infra.CrossCutting.Utils.Interfaces.IOperation`1<System.Collections.Generic.List`1<Stone.Cobrancas.Dominio.Entities.Cobranca>> Stone.Cobrancas.Dominio.Validations.ConsultarCobrancasValidation::Validar(System.Int32,System.Int32)": {
+          "Lines": {
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "39": 0,
+            "40": 0,
+            "42": 0,
+            "43": 0
+          },
+          "Branches": [
+            {
+              "Line": 39,
+              "Offset": 34,
+              "EndOffset": 36,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 39,
+              "Offset": 34,
+              "EndOffset": 53,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Stone.Cobrancas.Dominio.Validations.ConsultarCobrancasValidation::ValidarMes(System.Int32,System.Collections.Generic.List`1<Stone.Cobrancas.Infra.CrossCutting.Utils.DetalhesDaMensagem>)": {
+          "Lines": {
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0
+          },
+          "Branches": [
+            {
+              "Line": 47,
+              "Offset": 3,
+              "EndOffset": 5,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 3,
+              "EndOffset": 12,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 15,
+              "EndOffset": 17,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 15,
+              "EndOffset": 69,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Stone.Cobrancas.Dominio.Validations.ConsultarCobrancasValidation::ValidarPagina(System.Int32&,System.Collections.Generic.List`1<Stone.Cobrancas.Infra.CrossCutting.Utils.DetalhesDaMensagem>)": {
+          "Lines": {
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0
+          },
+          "Branches": [
+            {
+              "Line": 60,
+              "Offset": 8,
+              "EndOffset": 10,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 8,
+              "EndOffset": 61,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Stone.Cobrancas.Dominio.Validations.ConsultarCobrancasValidation::ValidarCpf(System.String,System.Collections.Generic.List`1<Stone.Cobrancas.Infra.CrossCutting.Utils.DetalhesDaMensagem>)": {
+          "Lines": {
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0
+          },
+          "Branches": [
+            {
+              "Line": 73,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 73,
+              "Offset": 9,
+              "EndOffset": 59,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 84,
+              "Offset": 77,
+              "EndOffset": 79,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 84,
+              "Offset": 77,
+              "EndOffset": 125,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Stone.Cobrancas.Dominio.Validations.ConsultarCobrancasValidation::.ctor(Stone.Cobrancas.Dominio.Validations.Interfaces.ICpfValidation)": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.Cobrancas\\Stone.Cobrancas.Dominio\\Validations\\CpfValidation.cs": {
+      "Stone.Cobrancas.Dominio.Validations.CpfValidation": {
+        "System.Boolean Stone.Cobrancas.Dominio.Validations.CpfValidation::Validar(System.String)": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "23": 0,
+            "24": 0,
+            "26": 0,
+            "27": 0,
+            "29": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "35": 0,
+            "36": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0
+          },
+          "Branches": [
+            {
+              "Line": 20,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 20,
+              "Offset": 11,
+              "EndOffset": 21,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 61,
+              "EndOffset": 63,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 61,
+              "EndOffset": 71,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 138,
+              "EndOffset": 88,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 138,
+              "EndOffset": 140,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 147,
+              "EndOffset": 149,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 147,
+              "EndOffset": 155,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 230,
+              "EndOffset": 180,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 230,
+              "EndOffset": 232,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 44,
+              "Offset": 239,
+              "EndOffset": 241,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 44,
+              "Offset": 239,
+              "EndOffset": 247,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Stone.Cobrancas.Dominio.Validations.CpfValidation::.ctor(Stone.Cobrancas.Infra.CrossCutting.Utils.Interfaces.ICpfMask)": {
+          "Lines": {
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "17": 0
+          },
+          "Branches": []
+        },
+        "System.Void Stone.Cobrancas.Dominio.Validations.CpfValidation::.cctor()": {
+          "Lines": {
+            "10": 0,
+            "11": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.Cobrancas\\Stone.Cobrancas.Dominio\\Services\\CobrancaService.cs": {
+      "Stone.Cobrancas.Dominio.Services.CobrancaService": {
+        "System.Void Stone.Cobrancas.Dominio.Services.CobrancaService::RegistrarLogCobranca(Stone.Cobrancas.Dominio.Entities.Cobranca)": {
+          "Lines": {
+            "78": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0
+          },
+          "Branches": []
+        },
+        "System.Void Stone.Cobrancas.Dominio.Services.CobrancaService::.ctor(Stone.Cobrancas.Dominio.Validations.Interfaces.ICobrancaValidation,Stone.Cobrancas.Dominio.Validations.Interfaces.IConsultarCobrancasValidation,Stone.Cobrancas.Dominio.Repository.Interface.ICobrancaWriterRepository,Stone.Cobrancas.Dominio.Repository.Interface.ICobrancaQueryRepository,Microsoft.Extensions.Logging.ILogger`1<Stone.Cobrancas.Dominio.Services.CobrancaService>)": {
+          "Lines": {
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0
+          },
+          "Branches": []
+        }
+      },
+      "Stone.Cobrancas.Dominio.Services.CobrancaService/<Cadastrar>d__6": {
+        "System.Void Stone.Cobrancas.Dominio.Services.CobrancaService/<Cadastrar>d__6::MoveNext()": {
+          "Lines": {
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0
+          },
+          "Branches": [
+            {
+              "Line": 38,
+              "Offset": 62,
+              "EndOffset": 64,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 38,
+              "Offset": 62,
+              "EndOffset": 76,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 42,
+              "Offset": 226,
+              "EndOffset": 228,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 42,
+              "Offset": 226,
+              "EndOffset": 245,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Stone.Cobrancas.Dominio.Services.CobrancaService/<ConsultarCobrancas>d__7": {
+        "System.Void Stone.Cobrancas.Dominio.Services.CobrancaService/<ConsultarCobrancas>d__7::MoveNext()": {
+          "Lines": {
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "59": 0,
+            "61": 0
+          },
+          "Branches": [
+            {
+              "Line": 52,
+              "Offset": 68,
+              "EndOffset": 70,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 52,
+              "Offset": 68,
+              "EndOffset": 82,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 56,
+              "Offset": 238,
+              "EndOffset": 240,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 56,
+              "Offset": 238,
+              "EndOffset": 257,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Stone.Cobrancas.Dominio.Services.CobrancaService/<ConsultarCobrancas>d__8": {
+        "System.Void Stone.Cobrancas.Dominio.Services.CobrancaService/<ConsultarCobrancas>d__8::MoveNext()": {
+          "Lines": {
+            "64": 0,
+            "65": 0,
+            "67": 0,
+            "68": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "74": 0,
+            "75": 0
+          },
+          "Branches": [
+            {
+              "Line": 67,
+              "Offset": 68,
+              "EndOffset": 70,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 67,
+              "Offset": 68,
+              "EndOffset": 82,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 71,
+              "Offset": 238,
+              "EndOffset": 240,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 71,
+              "Offset": 238,
+              "EndOffset": 257,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.Cobrancas\\Stone.Cobrancas.Dominio\\Entities\\BaseEntity.cs": {
+      "Stone.Cobrancas.Dominio.Entities.BaseEntity": {
+        "System.Guid Stone.Cobrancas.Dominio.Entities.BaseEntity::get_Id()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Void Stone.Cobrancas.Dominio.Entities.BaseEntity::.ctor()": {
+          "Lines": {
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.Cobrancas\\Stone.Cobrancas.Dominio\\Entities\\Cobranca.cs": {
+      "Stone.Cobrancas.Dominio.Entities.Cobranca": {
+        "System.DateTime Stone.Cobrancas.Dominio.Entities.Cobranca::get_DataVencimento()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.String Stone.Cobrancas.Dominio.Entities.Cobranca::get_Cpf()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal Stone.Cobrancas.Dominio.Entities.Cobranca::get_ValorCobranca()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.Void Stone.Cobrancas.Dominio.Entities.Cobranca::.ctor(System.DateTime,System.String,System.Decimal)": {
+          "Lines": {
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Stone.Cobrancas.Infra.CrossCutting.IoC.dll": {
+    "C:\\Trabalho\\Stone\\Stone.Cobrancas\\Stone.Cobrancas.Infra.CrossCutting.IoC\\BootStrapper.cs": {
+      "Stone.Cobrancas.Infra.CrossCutting.IoC.BootStrapper": {
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection Stone.Cobrancas.Infra.CrossCutting.IoC.BootStrapper::RegisterServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "33": 9,
+            "34": 9,
+            "35": 9,
+            "36": 9,
+            "37": 9,
+            "39": 9,
+            "40": 9
+          },
+          "Branches": []
+        },
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection Stone.Cobrancas.Infra.CrossCutting.IoC.BootStrapper::AddHealthChecksApiCobranca(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "43": 9,
+            "44": 9,
+            "45": 9,
+            "46": 9,
+            "47": 9,
+            "48": 9,
+            "49": 9
+          },
+          "Branches": []
+        },
+        "System.Void Stone.Cobrancas.Infra.CrossCutting.IoC.BootStrapper::UseHealthChecksApiCobranca(Microsoft.AspNetCore.Builder.IApplicationBuilder)": {
+          "Lines": {
+            "52": 9,
+            "53": 9,
+            "54": 9,
+            "55": 9,
+            "56": 9,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 9,
+            "68": 9
+          },
+          "Branches": []
+        },
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection Stone.Cobrancas.Infra.CrossCutting.IoC.BootStrapper::AddRepository(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "71": 9,
+            "72": 9,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 9,
+            "79": 9,
+            "80": 9,
+            "82": 9,
+            "83": 9,
+            "85": 9,
+            "86": 9
+          },
+          "Branches": [
+            {
+              "Line": 80,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 80,
+              "Offset": 11,
+              "EndOffset": 19,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection Stone.Cobrancas.Infra.CrossCutting.IoC.BootStrapper::AddUtil(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Boolean)": {
+          "Lines": {
+            "89": 9,
+            "90": 9,
+            "91": 0,
+            "93": 9,
+            "95": 9,
+            "96": 9
+          },
+          "Branches": [
+            {
+              "Line": 90,
+              "Offset": 4,
+              "EndOffset": 6,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 90,
+              "Offset": 4,
+              "EndOffset": 12,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 9
+            }
+          ]
+        },
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection Stone.Cobrancas.Infra.CrossCutting.IoC.BootStrapper::AddValidations(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "99": 9,
+            "100": 9,
+            "101": 9,
+            "102": 9,
+            "103": 9,
+            "105": 9
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Stone.Cobrancas.Infra.CrossCutting.Utils.dll": {
+    "C:\\Trabalho\\Stone\\Stone.Cobrancas\\Stone.Cobrancas.Infra.CrossCutting.Utils\\DetalhesDaMensagem.cs": {
+      "Stone.Cobrancas.Infra.CrossCutting.Utils.DetalhesDaMensagem": {
+        "System.String Stone.Cobrancas.Infra.CrossCutting.Utils.DetalhesDaMensagem::get_Campo()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.String Stone.Cobrancas.Infra.CrossCutting.Utils.DetalhesDaMensagem::get_Mensagem()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.String Stone.Cobrancas.Infra.CrossCutting.Utils.DetalhesDaMensagem::get_Valor()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.Cobrancas\\Stone.Cobrancas.Infra.CrossCutting.Utils\\Mensagens.cs": {
+      "Stone.Cobrancas.Infra.CrossCutting.Utils.Mensagens": {
+        "System.Collections.Generic.List`1<Stone.Cobrancas.Infra.CrossCutting.Utils.DetalhesDaMensagem> Stone.Cobrancas.Infra.CrossCutting.Utils.Mensagens::get_Campos()": {
+          "Lines": {
+            "19": 6
+          },
+          "Branches": []
+        },
+        "System.String Stone.Cobrancas.Infra.CrossCutting.Utils.Mensagens::get_Mensagem()": {
+          "Lines": {
+            "20": 6
+          },
+          "Branches": []
+        },
+        "System.Void Stone.Cobrancas.Infra.CrossCutting.Utils.Mensagens::AdicionarMensagem(Stone.Cobrancas.Infra.CrossCutting.Utils.DetalhesDaMensagem)": {
+          "Lines": {
+            "22": 3,
+            "23": 3,
+            "24": 0,
+            "25": 3
+          },
+          "Branches": [
+            {
+              "Line": 23,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 23,
+              "Offset": 7,
+              "EndOffset": 22,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            }
+          ]
+        },
+        "System.Void Stone.Cobrancas.Infra.CrossCutting.Utils.Mensagens::.ctor(System.String&,Stone.Cobrancas.Infra.CrossCutting.Utils.DetalhesDaMensagem)": {
+          "Lines": {
+            "7": 3,
+            "8": 3,
+            "9": 3,
+            "10": 3,
+            "11": 3,
+            "12": 3
+          },
+          "Branches": []
+        },
+        "System.Void Stone.Cobrancas.Infra.CrossCutting.Utils.Mensagens::.ctor(System.String&,System.Collections.Generic.List`1<Stone.Cobrancas.Infra.CrossCutting.Utils.DetalhesDaMensagem>)": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0
+          },
+          "Branches": [
+            {
+              "Line": 17,
+              "Offset": 20,
+              "EndOffset": 22,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 17,
+              "Offset": 20,
+              "EndOffset": 28,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.Cobrancas\\Stone.Cobrancas.Infra.CrossCutting.Utils\\OperationFail.cs": {
+      "Stone.Cobrancas.Infra.CrossCutting.Utils.OperationFail`1": {
+        "Stone.Cobrancas.Infra.CrossCutting.Utils.Mensagens Stone.Cobrancas.Infra.CrossCutting.Utils.OperationFail`1::get_Mensagens()": {
+          "Lines": {
+            "20": 6
+          },
+          "Branches": []
+        },
+        "System.Void Stone.Cobrancas.Infra.CrossCutting.Utils.OperationFail`1::.ctor(System.String&,Stone.Cobrancas.Infra.CrossCutting.Utils.DetalhesDaMensagem)": {
+          "Lines": {
+            "9": 3,
+            "10": 3,
+            "11": 3,
+            "12": 3
+          },
+          "Branches": []
+        },
+        "System.Void Stone.Cobrancas.Infra.CrossCutting.Utils.OperationFail`1::.ctor(System.String&,System.Collections.Generic.List`1<Stone.Cobrancas.Infra.CrossCutting.Utils.DetalhesDaMensagem>)": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.Cobrancas\\Stone.Cobrancas.Infra.CrossCutting.Utils\\OperationSuccess.cs": {
+      "Stone.Cobrancas.Infra.CrossCutting.Utils.OperationSuccess`1": {
+        "T Stone.Cobrancas.Infra.CrossCutting.Utils.OperationSuccess`1::get_Data()": {
+          "Lines": {
+            "13": 3
+          },
+          "Branches": []
+        },
+        "System.Void Stone.Cobrancas.Infra.CrossCutting.Utils.OperationSuccess`1::.ctor(T)": {
+          "Lines": {
+            "8": 3,
+            "9": 3,
+            "10": 3,
+            "11": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.Cobrancas\\Stone.Cobrancas.Infra.CrossCutting.Utils\\Result.cs": {
+      "Stone.Cobrancas.Infra.CrossCutting.Utils.Result": {
+        "Stone.Cobrancas.Infra.CrossCutting.Utils.Interfaces.IOperation`1<T> Stone.Cobrancas.Infra.CrossCutting.Utils.Result::CreateSuccess()": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0
+          },
+          "Branches": []
+        },
+        "Stone.Cobrancas.Infra.CrossCutting.Utils.Interfaces.IOperation`1<T> Stone.Cobrancas.Infra.CrossCutting.Utils.Result::CreateSuccess(T)": {
+          "Lines": {
+            "14": 3,
+            "15": 3,
+            "16": 3
+          },
+          "Branches": []
+        },
+        "Stone.Cobrancas.Infra.CrossCutting.Utils.Interfaces.IOperation`1<T> Stone.Cobrancas.Infra.CrossCutting.Utils.Result::CreateFailure(System.String&,Stone.Cobrancas.Infra.CrossCutting.Utils.DetalhesDaMensagem)": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0
+          },
+          "Branches": []
+        },
+        "Stone.Cobrancas.Infra.CrossCutting.Utils.Interfaces.IOperation`1<T> Stone.Cobrancas.Infra.CrossCutting.Utils.Result::CreateFailure(System.String&)": {
+          "Lines": {
+            "24": 3,
+            "25": 3,
+            "26": 3
+          },
+          "Branches": []
+        },
+        "Stone.Cobrancas.Infra.CrossCutting.Utils.Interfaces.IOperation`1<T> Stone.Cobrancas.Infra.CrossCutting.Utils.Result::CreateFailure(System.String&,System.Collections.Generic.List`1<Stone.Cobrancas.Infra.CrossCutting.Utils.DetalhesDaMensagem>)": {
+          "Lines": {
+            "29": 0,
+            "30": 0,
+            "31": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.Cobrancas\\Stone.Cobrancas.Infra.CrossCutting.Utils\\Masks\\CpfMask.cs": {
+      "Stone.Cobrancas.Infra.CrossCutting.Utils.Masks.CpfMask": {
+        "System.String Stone.Cobrancas.Infra.CrossCutting.Utils.Masks.CpfMask::RemoveMaskCpf(System.String&)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.Cobrancas\\Stone.Cobrancas.Infra.CrossCutting.Utils\\Configuracoes\\VariaveisDeAmbienteLocal.cs": {
+      "Stone.Cobrancas.Infra.CrossCutting.Utils.Configuracoes.VariaveisDeAmbienteLocal": {
+        "System.Void Stone.Cobrancas.Infra.CrossCutting.Utils.Configuracoes.VariaveisDeAmbienteLocal::CarregarVariaveis()": {
+          "Lines": {
+            "11": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0
+          },
+          "Branches": [
+            {
+              "Line": 17,
+              "Offset": 46,
+              "EndOffset": 48,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 17,
+              "Offset": 46,
+              "EndOffset": 58,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Stone.Cobrancas.Infra.CrossCutting.Utils.Configuracoes.VariaveisDeAmbienteLocal::ConfigurarVariaveisDeAmbienteStone(System.String&)": {
+          "Lines": {
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "31": 0,
+            "32": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0
+          },
+          "Branches": [
+            {
+              "Line": 25,
+              "Offset": 8,
+              "EndOffset": 10,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 8,
+              "EndOffset": 14,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 20,
+              "EndOffset": 22,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 20,
+              "EndOffset": 28,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 71,
+              "EndOffset": 75,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 71,
+              "EndOffset": 135,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.IO.DirectoryInfo Stone.Cobrancas.Infra.CrossCutting.Utils.Configuracoes.VariaveisDeAmbienteLocal::ObterDiretorio(System.String&)": {
+          "Lines": {
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "53": 0,
+            "54": 0
+          },
+          "Branches": [
+            {
+              "Line": 48,
+              "Offset": 47,
+              "EndOffset": 14,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 24,
+              "EndOffset": 26,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 24,
+              "EndOffset": 44,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 47,
+              "EndOffset": 49,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "Stone.Cobrancas.Infra.Data.dll": {
+    "C:\\Trabalho\\Stone\\Stone.Cobrancas\\Stone.Cobrancas.Infra.Data\\Writer\\CobrancaWriterRepository.cs": {
+      "Stone.Cobrancas.Infra.Data.Writer.CobrancaWriterRepository": {
+        "System.Void Stone.Cobrancas.Infra.Data.Writer.CobrancaWriterRepository::.ctor(MongoDB.Driver.IMongoDatabase)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": []
+        }
+      },
+      "Stone.Cobrancas.Infra.Data.Writer.CobrancaWriterRepository/<Cadastrar>d__3": {
+        "System.Void Stone.Cobrancas.Infra.Data.Writer.CobrancaWriterRepository/<Cadastrar>d__3::MoveNext()": {
+          "Lines": {
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.Cobrancas\\Stone.Cobrancas.Infra.Data\\Query\\CobrancaQueryRepository.cs": {
+      "Stone.Cobrancas.Infra.Data.Query.CobrancaQueryRepository": {
+        "System.Threading.Tasks.Task`1<System.Collections.Generic.List`1<Stone.Cobrancas.Dominio.Entities.Cobranca>> Stone.Cobrancas.Infra.Data.Query.CobrancaQueryRepository::ConsultarCobrancas(System.Int32,System.Int32)": {
+          "Lines": {
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "54": 0,
+            "55": 0
+          },
+          "Branches": []
+        },
+        "System.Void Stone.Cobrancas.Infra.Data.Query.CobrancaQueryRepository::.ctor(MongoDB.Driver.IMongoDatabase,Stone.Cobrancas.Infra.Data.MongoDb.Configurations.Interfaces.ICobrancaQueryRepositoryConfiguration)": {
+          "Lines": {
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0
+          },
+          "Branches": []
+        },
+        "System.Void Stone.Cobrancas.Infra.Data.Query.CobrancaQueryRepository::.cctor()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        }
+      },
+      "Stone.Cobrancas.Infra.Data.Query.CobrancaQueryRepository/<ConsultarCobrancas>d__6": {
+        "System.Void Stone.Cobrancas.Infra.Data.Query.CobrancaQueryRepository/<ConsultarCobrancas>d__6::MoveNext()": {
+          "Lines": {
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.Cobrancas\\Stone.Cobrancas.Infra.Data\\MongoDb\\MongoDatabaseProvider.cs": {
+      "Stone.Cobrancas.Infra.Data.MongoDb.MongoDatabaseProvider": {
+        "MongoDB.Driver.IMongoDatabase Stone.Cobrancas.Infra.Data.MongoDb.MongoDatabaseProvider::GetDatabase(System.String,System.String)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.Cobrancas\\Stone.Cobrancas.Infra.Data\\MongoDb\\Configurations\\CobrancaQueryRepositoryConfiguration.cs": {
+      "Stone.Cobrancas.Infra.Data.MongoDb.Configurations.CobrancaQueryRepositoryConfiguration": {
+        "System.Int32 Stone.Cobrancas.Infra.Data.MongoDb.Configurations.CobrancaQueryRepositoryConfiguration::ObtenhaTamanhoConfiguracao()": {
+          "Lines": {
+            "18": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.Void Stone.Cobrancas.Infra.Data.MongoDb.Configurations.CobrancaQueryRepositoryConfiguration::.ctor(System.Int32)": {
+          "Lines": {
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0
+          },
+          "Branches": [
+            {
+              "Line": 15,
+              "Offset": 10,
+              "EndOffset": 12,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 15,
+              "Offset": 10,
+              "EndOffset": 15,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}

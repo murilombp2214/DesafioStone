@@ -1,0 +1,1444 @@
+{
+  "Stone.ProcessamentoCobranca.Dominio.dll": {
+    "C:\\Trabalho\\Stone\\Stone.ProcessamentoCobranca\\Stone.ProcessamentoCobranca.Dominio\\Services\\ClienteStoneService.cs": {
+      "Stone.ProcessamentoCobranca.Dominio.Services.ClienteStoneService": {
+        "Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils.Interfaces.IOperation`1<System.Collections.Generic.List`1<Stone.ProcessamentoCobranca.Dominio.Entities.ClienteStone>> Stone.ProcessamentoCobranca.Dominio.Services.ClienteStoneService::CriarFalhaConsultaClientes(System.Int32&)": {
+          "Lines": {
+            "35": 2,
+            "36": 2,
+            "37": 2,
+            "38": 2,
+            "39": 2,
+            "40": 2,
+            "41": 2,
+            "42": 2,
+            "43": 2
+          },
+          "Branches": []
+        },
+        "System.Void Stone.ProcessamentoCobranca.Dominio.Services.ClienteStoneService::.ctor(Stone.ProcessamentoCobranca.Dominio.Repository.Interfaces.IClienteStoneQueryRepository)": {
+          "Lines": {
+            "16": 5,
+            "17": 5,
+            "18": 5,
+            "19": 5
+          },
+          "Branches": []
+        }
+      },
+      "Stone.ProcessamentoCobranca.Dominio.Services.ClienteStoneService/<ObterClientes>d__2": {
+        "System.Void Stone.ProcessamentoCobranca.Dominio.Services.ClienteStoneService/<ObterClientes>d__2::MoveNext()": {
+          "Lines": {
+            "22": 5,
+            "23": 5,
+            "24": 2,
+            "26": 3,
+            "27": 3,
+            "28": 2,
+            "30": 1,
+            "32": 5
+          },
+          "Branches": [
+            {
+              "Line": 23,
+              "Offset": 29,
+              "EndOffset": 31,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 23,
+              "Offset": 29,
+              "EndOffset": 54,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            },
+            {
+              "Line": 27,
+              "Offset": 204,
+              "EndOffset": 206,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 2
+            },
+            {
+              "Line": 27,
+              "Offset": 204,
+              "EndOffset": 239,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.ProcessamentoCobranca\\Stone.ProcessamentoCobranca.Dominio\\Services\\CobrancaStoneService.cs": {
+      "Stone.ProcessamentoCobranca.Dominio.Services.CobrancaStoneService": {
+        "System.String Stone.ProcessamentoCobranca.Dominio.Services.CobrancaStoneService::ObtenhaCpfMascaradoParaLog(System.String&)": {
+          "Lines": {
+            "42": 1,
+            "43": 1,
+            "44": 1
+          },
+          "Branches": []
+        },
+        "System.Void Stone.ProcessamentoCobranca.Dominio.Services.CobrancaStoneService::.ctor(Stone.ProcessamentoCobranca.Dominio.Repository.Interfaces.ICobrancaStoneWriterRepository,Microsoft.Extensions.Logging.ILogger`1<Stone.ProcessamentoCobranca.Dominio.Services.Interfaces.ICobrancaStoneService>)": {
+          "Lines": {
+            "18": 3,
+            "19": 3,
+            "20": 3,
+            "21": 3,
+            "22": 3,
+            "23": 3
+          },
+          "Branches": []
+        }
+      },
+      "Stone.ProcessamentoCobranca.Dominio.Services.CobrancaStoneService/<RegistrarCobranca>d__3": {
+        "System.Void Stone.ProcessamentoCobranca.Dominio.Services.CobrancaStoneService/<RegistrarCobranca>d__3::MoveNext()": {
+          "Lines": {
+            "26": 3,
+            "27": 3,
+            "28": 1,
+            "30": 2,
+            "31": 2,
+            "32": 1,
+            "33": 1,
+            "34": 1,
+            "35": 1,
+            "36": 1,
+            "38": 1,
+            "39": 3
+          },
+          "Branches": [
+            {
+              "Line": 27,
+              "Offset": 26,
+              "EndOffset": 28,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 27,
+              "Offset": 26,
+              "EndOffset": 47,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 31,
+              "Offset": 200,
+              "EndOffset": 202,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 31,
+              "Offset": 200,
+              "EndOffset": 303,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.ProcessamentoCobranca\\Stone.ProcessamentoCobranca.Dominio\\Services\\FaturamentoStoneService.cs": {
+      "Stone.ProcessamentoCobranca.Dominio.Services.FaturamentoStoneService": {
+        "System.Threading.Tasks.Task Stone.ProcessamentoCobranca.Dominio.Services.FaturamentoStoneService::GerarCobrancasParaClientesStoneEnfilerados()": {
+          "Lines": {
+            "76": 0,
+            "78": 0,
+            "79": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "86": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "93": 0,
+            "96": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal Stone.ProcessamentoCobranca.Dominio.Services.FaturamentoStoneService::CalculeValorCobranca(System.String)": {
+          "Lines": {
+            "108": 0,
+            "109": 0,
+            "110": 0
+          },
+          "Branches": []
+        },
+        "System.Void Stone.ProcessamentoCobranca.Dominio.Services.FaturamentoStoneService::.ctor(Stone.ProcessamentoCobranca.Dominio.Services.Interfaces.IClienteStoneService,Stone.ProcessamentoCobranca.Dominio.Services.Interfaces.ICobrancaStoneService,Stone.ProcessamentoCobranca.Dominio.Queues.Interfaces.IQueueFaturamentoProducer,Stone.ProcessamentoCobranca.Dominio.Queues.Interfaces.IQueueFaturamentoConsumer,Microsoft.Extensions.Logging.ILogger`1<Stone.ProcessamentoCobranca.Dominio.Services.Interfaces.IFaturamentoStoneService>)": {
+          "Lines": {
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "35": 0
+          },
+          "Branches": []
+        }
+      },
+      "Stone.ProcessamentoCobranca.Dominio.Services.FaturamentoStoneService/<GerarCobrancasParaClientesStone>d__6": {
+        "System.Void Stone.ProcessamentoCobranca.Dominio.Services.FaturamentoStoneService/<GerarCobrancasParaClientesStone>d__6::MoveNext()": {
+          "Lines": {
+            "37": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "74": 0
+          },
+          "Branches": [
+            {
+              "Line": 42,
+              "Offset": 341,
+              "EndOffset": 43,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 45,
+              "Offset": 208,
+              "EndOffset": 210,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 234,
+              "EndOffset": 236,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 234,
+              "EndOffset": 247,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 45,
+              "Offset": 208,
+              "EndOffset": 304,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 42,
+              "Offset": 341,
+              "EndOffset": 346,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Stone.ProcessamentoCobranca.Dominio.Services.FaturamentoStoneService/<ProcesseCobranca>d__8": {
+        "System.Void Stone.ProcessamentoCobranca.Dominio.Services.FaturamentoStoneService/<ProcesseCobranca>d__8::MoveNext()": {
+          "Lines": {
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0
+          },
+          "Branches": [
+            {
+              "Line": 101,
+              "Offset": 178,
+              "EndOffset": 180,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 101,
+              "Offset": 178,
+              "EndOffset": 294,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.ProcessamentoCobranca\\Stone.ProcessamentoCobranca.Dominio\\Entities\\ClienteStone.cs": {
+      "Stone.ProcessamentoCobranca.Dominio.Entities.ClienteStone": {
+        "System.Guid Stone.ProcessamentoCobranca.Dominio.Entities.ClienteStone::get_Id()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.String Stone.ProcessamentoCobranca.Dominio.Entities.ClienteStone::get_Nome()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        },
+        "System.String Stone.ProcessamentoCobranca.Dominio.Entities.ClienteStone::get_Estado()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "System.String Stone.ProcessamentoCobranca.Dominio.Entities.ClienteStone::get_Cpf()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.Void Stone.ProcessamentoCobranca.Dominio.Entities.ClienteStone::.ctor(System.Guid,System.String,System.String,System.String)": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.ProcessamentoCobranca\\Stone.ProcessamentoCobranca.Dominio\\Entities\\CobrancaStone.cs": {
+      "Stone.ProcessamentoCobranca.Dominio.Entities.CobrancaStone": {
+        "System.Guid Stone.ProcessamentoCobranca.Dominio.Entities.CobrancaStone::get_Id()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime Stone.ProcessamentoCobranca.Dominio.Entities.CobrancaStone::get_DataVencimento()": {
+          "Lines": {
+            "23": 2
+          },
+          "Branches": []
+        },
+        "System.String Stone.ProcessamentoCobranca.Dominio.Entities.CobrancaStone::get_Cpf()": {
+          "Lines": {
+            "24": 3
+          },
+          "Branches": []
+        },
+        "System.Decimal Stone.ProcessamentoCobranca.Dominio.Entities.CobrancaStone::get_ValorCobranca()": {
+          "Lines": {
+            "25": 2
+          },
+          "Branches": []
+        },
+        "System.Void Stone.ProcessamentoCobranca.Dominio.Entities.CobrancaStone::.ctor(System.DateTime,System.String,System.Decimal)": {
+          "Lines": {
+            "10": 2,
+            "11": 2,
+            "12": 2,
+            "13": 2,
+            "14": 2,
+            "15": 2
+          },
+          "Branches": []
+        },
+        "System.Void Stone.ProcessamentoCobranca.Dominio.Entities.CobrancaStone::.ctor(System.Guid,System.DateTime,System.String,System.Decimal)": {
+          "Lines": {
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Stone.ProcessamentoCobranca.Infra.CrossCutting.IoC.dll": {
+    "C:\\Trabalho\\Stone\\Stone.ProcessamentoCobranca\\Stone.ProcessamentoCobranca.Infra.CrossCutting.IoC\\BootStrapper.cs": {
+      "Stone.ProcessamentoCobranca.Infra.CrossCutting.IoC.BootStrapper": {
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection Stone.ProcessamentoCobranca.Infra.CrossCutting.IoC.BootStrapper::RegisterServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "29": 0,
+            "30": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection Stone.ProcessamentoCobranca.Infra.CrossCutting.IoC.BootStrapper::RegisterFilas(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection Stone.ProcessamentoCobranca.Infra.CrossCutting.IoC.BootStrapper::RegisterPoliciesFactoty(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection Stone.ProcessamentoCobranca.Infra.CrossCutting.IoC.BootStrapper::RegisterHttpClientApiCliente(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection Stone.ProcessamentoCobranca.Infra.CrossCutting.IoC.BootStrapper::RegisterHttpClientApiCobranca(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection Stone.ProcessamentoCobranca.Infra.CrossCutting.IoC.BootStrapper::AddUtil(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Boolean)": {
+          "Lines": {
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "68": 0,
+            "69": 0
+          },
+          "Branches": [
+            {
+              "Line": 65,
+              "Offset": 4,
+              "EndOffset": 6,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 65,
+              "Offset": 4,
+              "EndOffset": 12,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils.dll": {
+    "C:\\Trabalho\\Stone\\Stone.ProcessamentoCobranca\\Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils\\DetalhesDaMensagem.cs": {
+      "Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils.DetalhesDaMensagem": {
+        "System.String Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils.DetalhesDaMensagem::get_Campo()": {
+          "Lines": {
+            "11": 4
+          },
+          "Branches": []
+        },
+        "System.String Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils.DetalhesDaMensagem::get_Mensagem()": {
+          "Lines": {
+            "13": 4
+          },
+          "Branches": []
+        },
+        "System.String Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils.DetalhesDaMensagem::get_Valor()": {
+          "Lines": {
+            "15": 4
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.ProcessamentoCobranca\\Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils\\Mensagens.cs": {
+      "Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils.Mensagens": {
+        "System.Collections.Generic.List`1<Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils.DetalhesDaMensagem> Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils.Mensagens::get_Campos()": {
+          "Lines": {
+            "21": 20
+          },
+          "Branches": []
+        },
+        "System.String Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils.Mensagens::get_Mensagem()": {
+          "Lines": {
+            "22": 12
+          },
+          "Branches": []
+        },
+        "System.Void Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils.Mensagens::AdicionarMensagem(Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils.DetalhesDaMensagem)": {
+          "Lines": {
+            "24": 6,
+            "25": 6,
+            "26": 2,
+            "27": 6
+          },
+          "Branches": [
+            {
+              "Line": 25,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 25,
+              "Offset": 7,
+              "EndOffset": 22,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 6
+            }
+          ]
+        },
+        "System.Void Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils.Mensagens::.ctor(System.String&,Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils.DetalhesDaMensagem)": {
+          "Lines": {
+            "9": 6,
+            "10": 6,
+            "11": 6,
+            "12": 6,
+            "13": 6,
+            "14": 6
+          },
+          "Branches": []
+        },
+        "System.Void Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils.Mensagens::.ctor(System.String&,System.Collections.Generic.List`1<Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils.DetalhesDaMensagem>)": {
+          "Lines": {
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": [
+            {
+              "Line": 19,
+              "Offset": 20,
+              "EndOffset": 22,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 20,
+              "EndOffset": 28,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.ProcessamentoCobranca\\Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils\\OperationFail.cs": {
+      "Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils.OperationFail`1": {
+        "Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils.Mensagens Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils.OperationFail`1::get_Mensagens()": {
+          "Lines": {
+            "22": 24
+          },
+          "Branches": []
+        },
+        "System.Void Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils.OperationFail`1::.ctor(System.String&,Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils.DetalhesDaMensagem)": {
+          "Lines": {
+            "11": 6,
+            "12": 6,
+            "13": 6,
+            "14": 6
+          },
+          "Branches": []
+        },
+        "System.Void Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils.OperationFail`1::.ctor(System.String&,System.Collections.Generic.List`1<Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils.DetalhesDaMensagem>)": {
+          "Lines": {
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.ProcessamentoCobranca\\Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils\\OperationSuccess.cs": {
+      "Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils.OperationSuccess`1": {
+        "T Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils.OperationSuccess`1::get_Data()": {
+          "Lines": {
+            "16": 2
+          },
+          "Branches": []
+        },
+        "System.Void Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils.OperationSuccess`1::.ctor(T)": {
+          "Lines": {
+            "11": 2,
+            "12": 2,
+            "13": 2,
+            "14": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.ProcessamentoCobranca\\Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils\\Result.cs": {
+      "Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils.Result": {
+        "Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils.Interfaces.IOperation`1<T> Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils.Result::CreateSuccess()": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0
+          },
+          "Branches": []
+        },
+        "Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils.Interfaces.IOperation`1<T> Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils.Result::CreateSuccess(T)": {
+          "Lines": {
+            "16": 2,
+            "17": 2,
+            "18": 2
+          },
+          "Branches": []
+        },
+        "Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils.Interfaces.IOperation`1<T> Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils.Result::CreateFailure(System.String&,Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils.DetalhesDaMensagem)": {
+          "Lines": {
+            "21": 2,
+            "22": 2,
+            "23": 2
+          },
+          "Branches": []
+        },
+        "Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils.Interfaces.IOperation`1<T> Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils.Result::CreateFailure(System.String&)": {
+          "Lines": {
+            "26": 4,
+            "27": 4,
+            "28": 4
+          },
+          "Branches": []
+        },
+        "Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils.Interfaces.IOperation`1<T> Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils.Result::CreateFailure(System.String&,System.Collections.Generic.List`1<Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils.DetalhesDaMensagem>)": {
+          "Lines": {
+            "31": 0,
+            "32": 0,
+            "33": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.ProcessamentoCobranca\\Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils\\Configuracoes\\VariaveisDeAmbienteLocal.cs": {
+      "Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils.Configuracoes.VariaveisDeAmbienteLocal": {
+        "System.Void Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils.Configuracoes.VariaveisDeAmbienteLocal::CarregarVariaveis()": {
+          "Lines": {
+            "13": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0
+          },
+          "Branches": [
+            {
+              "Line": 19,
+              "Offset": 46,
+              "EndOffset": 48,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 46,
+              "EndOffset": 58,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils.Configuracoes.VariaveisDeAmbienteLocal::ConfigurarVariaveisDeAmbienteStone(System.String&)": {
+          "Lines": {
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "30": 0,
+            "31": 0,
+            "33": 0,
+            "34": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0
+          },
+          "Branches": [
+            {
+              "Line": 27,
+              "Offset": 8,
+              "EndOffset": 10,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 8,
+              "EndOffset": 14,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 20,
+              "EndOffset": 22,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 20,
+              "EndOffset": 28,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 33,
+              "Offset": 71,
+              "EndOffset": 75,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 33,
+              "Offset": 71,
+              "EndOffset": 135,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.IO.DirectoryInfo Stone.ProcessamentoCobranca.Infra.CrossCutting.Utils.Configuracoes.VariaveisDeAmbienteLocal::ObterDiretorio(System.String&)": {
+          "Lines": {
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "55": 0,
+            "56": 0
+          },
+          "Branches": [
+            {
+              "Line": 50,
+              "Offset": 47,
+              "EndOffset": 14,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 50,
+              "Offset": 24,
+              "EndOffset": 26,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 50,
+              "Offset": 24,
+              "EndOffset": 44,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 50,
+              "Offset": 47,
+              "EndOffset": 49,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "Stone.ProcessamentoCobranca.Infra.Data.dll": {
+    "C:\\Trabalho\\Stone\\Stone.ProcessamentoCobranca\\Stone.ProcessamentoCobranca.Infra.Data\\Queues\\QueueFaturamentoConsumer.cs": {
+      "Stone.ProcessamentoCobranca.Infra.Data.Queues.QueueFaturamentoConsumer/<ObtenhaCobrancasNaoProcessadas>d__0": {
+        "System.Boolean Stone.ProcessamentoCobranca.Infra.Data.Queues.QueueFaturamentoConsumer/<ObtenhaCobrancasNaoProcessadas>d__0::MoveNext()": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "21": 0,
+            "22": 0,
+            "24": 0
+          },
+          "Branches": [
+            {
+              "Line": 16,
+              "Offset": 44,
+              "EndOffset": 46,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 44,
+              "EndOffset": 82,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.ProcessamentoCobranca\\Stone.ProcessamentoCobranca.Infra.Data\\Queues\\QueueFaturamentoProducer.cs": {
+      "Stone.ProcessamentoCobranca.Infra.Data.Queues.QueueFaturamentoProducer": {
+        "System.Threading.Tasks.Task Stone.ProcessamentoCobranca.Infra.Data.Queues.QueueFaturamentoProducer::EnfilerarCobranca(Stone.ProcessamentoCobranca.Dominio.Entities.CobrancaStone)": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "17": 0,
+            "18": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.ProcessamentoCobranca\\Stone.ProcessamentoCobranca.Infra.Data\\Queues\\Configuration\\QueueLocal.cs": {
+      "Stone.ProcessamentoCobranca.Infra.Data.Queues.Configuration.QueueLocal": {
+        "System.Void Stone.ProcessamentoCobranca.Infra.Data.Queues.Configuration.QueueLocal::.cctor()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.ProcessamentoCobranca\\Stone.ProcessamentoCobranca.Infra.Data\\Clients\\Polices\\PoliciesFactoty.cs": {
+      "Stone.ProcessamentoCobranca.Infra.Data.Clients.Polices.PoliciesFactoty": {
+        "System.Void Stone.ProcessamentoCobranca.Infra.Data.Clients.Polices.PoliciesFactoty::ConfigureTimeout()": {
+          "Lines": {
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0
+          },
+          "Branches": [
+            {
+              "Line": 32,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 31,
+              "EndOffset": 33,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 31,
+              "EndOffset": 39,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 11,
+              "EndOffset": 102,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Threading.Tasks.Task Stone.ProcessamentoCobranca.Infra.Data.Clients.Polices.PoliciesFactoty::LogTimeout(Polly.Context,System.TimeSpan,System.Threading.Tasks.Task)": {
+          "Lines": {
+            "42": 0,
+            "43": 0,
+            "44": 0
+          },
+          "Branches": []
+        },
+        "System.Void Stone.ProcessamentoCobranca.Infra.Data.Clients.Polices.PoliciesFactoty::ConfigureRetry()": {
+          "Lines": {
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0
+          },
+          "Branches": [
+            {
+              "Line": 48,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 50,
+              "Offset": 31,
+              "EndOffset": 33,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 50,
+              "Offset": 31,
+              "EndOffset": 39,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 11,
+              "EndOffset": 139,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Stone.ProcessamentoCobranca.Infra.Data.Clients.Polices.PoliciesFactoty::LogRetry(Polly.DelegateResult`1<System.Net.Http.HttpResponseMessage>,System.Int32)": {
+          "Lines": {
+            "61": 0,
+            "62": 0,
+            "63": 0
+          },
+          "Branches": []
+        },
+        "Polly.IAsyncPolicy`1<System.Net.Http.HttpResponseMessage> Stone.ProcessamentoCobranca.Infra.Data.Clients.Polices.PoliciesFactoty::Retry()": {
+          "Lines": {
+            "65": 0
+          },
+          "Branches": []
+        },
+        "Polly.IAsyncPolicy`1<System.Net.Http.HttpResponseMessage> Stone.ProcessamentoCobranca.Infra.Data.Clients.Polices.PoliciesFactoty::Timeout()": {
+          "Lines": {
+            "67": 0
+          },
+          "Branches": []
+        },
+        "System.Void Stone.ProcessamentoCobranca.Infra.Data.Clients.Polices.PoliciesFactoty::.ctor(Microsoft.Extensions.Logging.ILogger`1<Stone.ProcessamentoCobranca.Infra.Data.Clients.Polices.Interfaces.IPoliciesFactoty>)": {
+          "Lines": {
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.ProcessamentoCobranca\\Stone.ProcessamentoCobranca.Infra.Data\\Clients\\ApiCobranca\\CobrancaStoneWriterClient.cs": {
+      "Stone.ProcessamentoCobranca.Infra.Data.Clients.ApiCobranca.CobrancaStoneWriterClient": {
+        "System.Void Stone.ProcessamentoCobranca.Infra.Data.Clients.ApiCobranca.CobrancaStoneWriterClient::.ctor(System.Net.Http.HttpClient,Microsoft.Extensions.Logging.ILogger`1<Stone.ProcessamentoCobranca.Dominio.Repository.Interfaces.ICobrancaStoneWriterRepository>)": {
+          "Lines": {
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": []
+        }
+      },
+      "Stone.ProcessamentoCobranca.Infra.Data.Clients.ApiCobranca.CobrancaStoneWriterClient/<RegistrarCobranca>d__4": {
+        "System.Void Stone.ProcessamentoCobranca.Infra.Data.Clients.ApiCobranca.CobrancaStoneWriterClient/<RegistrarCobranca>d__4::MoveNext()": {
+          "Lines": {
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "61": 0,
+            "62": 0,
+            "65": 0
+          },
+          "Branches": [
+            {
+              "Line": 46,
+              "Offset": 339,
+              "EndOffset": 344,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 339,
+              "EndOffset": 638,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 53,
+              "Offset": 654,
+              "EndOffset": 656,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 53,
+              "Offset": 654,
+              "EndOffset": 676,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 53,
+              "Offset": 681,
+              "EndOffset": 686,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 53,
+              "Offset": 681,
+              "EndOffset": 867,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.ProcessamentoCobranca\\Stone.ProcessamentoCobranca.Infra.Data\\Clients\\ApiCobranca\\Response\\CobrancaStoneResponse.cs": {
+      "Stone.ProcessamentoCobranca.Infra.Data.Clients.ApiCobranca.Response.CobrancaStoneResponse": {
+        "System.Guid Stone.ProcessamentoCobranca.Infra.Data.Clients.ApiCobranca.Response.CobrancaStoneResponse::get_Id()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime Stone.ProcessamentoCobranca.Infra.Data.Clients.ApiCobranca.Response.CobrancaStoneResponse::get_DataVencimento()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.String Stone.ProcessamentoCobranca.Infra.Data.Clients.ApiCobranca.Response.CobrancaStoneResponse::get_Cpf()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal Stone.ProcessamentoCobranca.Infra.Data.Clients.ApiCobranca.Response.CobrancaStoneResponse::get_ValorCobranca()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.ProcessamentoCobranca\\Stone.ProcessamentoCobranca.Infra.Data\\Clients\\ApiCobranca\\Request\\CobrancaStoneRequest.cs": {
+      "Stone.ProcessamentoCobranca.Infra.Data.Clients.ApiCobranca.Request.CobrancaStoneRequest": {
+        "System.DateTime Stone.ProcessamentoCobranca.Infra.Data.Clients.ApiCobranca.Request.CobrancaStoneRequest::get_DataVencimento()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.String Stone.ProcessamentoCobranca.Infra.Data.Clients.ApiCobranca.Request.CobrancaStoneRequest::get_Cpf()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal Stone.ProcessamentoCobranca.Infra.Data.Clients.ApiCobranca.Request.CobrancaStoneRequest::get_ValorCobranca()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.ProcessamentoCobranca\\Stone.ProcessamentoCobranca.Infra.Data\\Clients\\ApiCobranca\\Mapper\\CobrancaStoneRequestMapper.cs": {
+      "Stone.ProcessamentoCobranca.Infra.Data.Clients.ApiCobranca.Mapper.CobrancaStoneRequestMapper": {
+        "Stone.ProcessamentoCobranca.Infra.Data.Clients.ApiCobranca.Request.CobrancaStoneRequest Stone.ProcessamentoCobranca.Infra.Data.Clients.ApiCobranca.Mapper.CobrancaStoneRequestMapper::ConverterCobrancaEmCobrancaStoneRequest(Stone.ProcessamentoCobranca.Dominio.Entities.CobrancaStone)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.ProcessamentoCobranca\\Stone.ProcessamentoCobranca.Infra.Data\\Clients\\ApiCobranca\\Mapper\\CobrancaStoneResponseMapper.cs": {
+      "Stone.ProcessamentoCobranca.Infra.Data.Clients.ApiCobranca.Mapper.CobrancaStoneResponseMapper": {
+        "Stone.ProcessamentoCobranca.Dominio.Entities.CobrancaStone Stone.ProcessamentoCobranca.Infra.Data.Clients.ApiCobranca.Mapper.CobrancaStoneResponseMapper::ConverterCobrancaStoneResponseEmCobranca(Stone.ProcessamentoCobranca.Infra.Data.Clients.ApiCobranca.Response.CobrancaStoneResponse)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.ProcessamentoCobranca\\Stone.ProcessamentoCobranca.Infra.Data\\Clients\\ApiCobranca\\Configuration\\ConfigurationApiCobranca.cs": {
+      "Stone.ProcessamentoCobranca.Infra.Data.Clients.ApiCobranca.Configuration.ConfigurationApiCobranca": {
+        "System.Void Stone.ProcessamentoCobranca.Infra.Data.Clients.ApiCobranca.Configuration.ConfigurationApiCobranca::ConfigureHttpClient(System.Net.Http.HttpClient)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "15": 0,
+            "16": 0,
+            "18": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.ProcessamentoCobranca\\Stone.ProcessamentoCobranca.Infra.Data\\Clients\\ApiCliente\\ClienteStoneQueryClient.cs": {
+      "Stone.ProcessamentoCobranca.Infra.Data.Clients.ApiCliente.ClienteStoneQueryClient": {
+        "System.Void Stone.ProcessamentoCobranca.Infra.Data.Clients.ApiCliente.ClienteStoneQueryClient::.ctor(System.Net.Http.HttpClient,Microsoft.Extensions.Logging.ILogger`1<Stone.ProcessamentoCobranca.Dominio.Repository.Interfaces.IClienteStoneQueryRepository>)": {
+          "Lines": {
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0
+          },
+          "Branches": []
+        }
+      },
+      "Stone.ProcessamentoCobranca.Infra.Data.Clients.ApiCliente.ClienteStoneQueryClient/<>c": {
+        "Stone.ProcessamentoCobranca.Dominio.Entities.ClienteStone Stone.ProcessamentoCobranca.Infra.Data.Clients.ApiCliente.ClienteStoneQueryClient/<>c::<ConsultarClientes>b__4_0(Stone.ProcessamentoCobranca.Infra.Data.Clients.ApiCliente.Response.ClienteStoneResponseData)": {
+          "Lines": {
+            "38": 0
+          },
+          "Branches": []
+        }
+      },
+      "Stone.ProcessamentoCobranca.Infra.Data.Clients.ApiCliente.ClienteStoneQueryClient/<ConsultarClientes>d__4": {
+        "System.Void Stone.ProcessamentoCobranca.Infra.Data.Clients.ApiCliente.ClienteStoneQueryClient/<ConsultarClientes>d__4::MoveNext()": {
+          "Lines": {
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "39": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0
+          },
+          "Branches": [
+            {
+              "Line": 31,
+              "Offset": 233,
+              "EndOffset": 238,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 533,
+              "EndOffset": 535,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 533,
+              "EndOffset": 591,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 233,
+              "EndOffset": 606,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.ProcessamentoCobranca\\Stone.ProcessamentoCobranca.Infra.Data\\Clients\\ApiCliente\\Response\\ClienteStoneResponse.cs": {
+      "Stone.ProcessamentoCobranca.Infra.Data.Clients.ApiCliente.Response.ClienteStoneResponse": {
+        "System.Collections.Generic.List`1<Stone.ProcessamentoCobranca.Infra.Data.Clients.ApiCliente.Response.ClienteStoneResponseData> Stone.ProcessamentoCobranca.Infra.Data.Clients.ApiCliente.Response.ClienteStoneResponse::get_Data()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.ProcessamentoCobranca\\Stone.ProcessamentoCobranca.Infra.Data\\Clients\\ApiCliente\\Response\\ClienteStoneResponseData.cs": {
+      "Stone.ProcessamentoCobranca.Infra.Data.Clients.ApiCliente.Response.ClienteStoneResponseData": {
+        "System.Guid Stone.ProcessamentoCobranca.Infra.Data.Clients.ApiCliente.Response.ClienteStoneResponseData::get_Id()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.String Stone.ProcessamentoCobranca.Infra.Data.Clients.ApiCliente.Response.ClienteStoneResponseData::get_Nome()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.String Stone.ProcessamentoCobranca.Infra.Data.Clients.ApiCliente.Response.ClienteStoneResponseData::get_Estado()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.String Stone.ProcessamentoCobranca.Infra.Data.Clients.ApiCliente.Response.ClienteStoneResponseData::get_Cpf()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.ProcessamentoCobranca\\Stone.ProcessamentoCobranca.Infra.Data\\Clients\\ApiCliente\\Configurations\\ConfigurationApiCliente.cs": {
+      "Stone.ProcessamentoCobranca.Infra.Data.Clients.ApiCliente.Configurations.ConfigurationApiCliente": {
+        "System.Void Stone.ProcessamentoCobranca.Infra.Data.Clients.ApiCliente.Configurations.ConfigurationApiCliente::ConfigureHttpClient(System.Net.Http.HttpClient)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "15": 0,
+            "16": 0,
+            "18": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Stone.ProcessamentoCobranca.WorkerService.dll": {
+    "C:\\Trabalho\\Stone\\Stone.ProcessamentoCobranca\\Stone.ProcessamentoCobranca.WorkerService\\Program.cs": {
+      "Stone.ProcessamentoCobranca.WorkerService.Program": {
+        "System.Void Stone.ProcessamentoCobranca.WorkerService.Program::Main(System.String[])": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "16": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.Extensions.Hosting.IHostBuilder Stone.ProcessamentoCobranca.WorkerService.Program::CreateHostBuilder(System.String[])": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Stone.ProcessamentoCobranca\\Stone.ProcessamentoCobranca.WorkerService\\Worker.cs": {
+      "Stone.ProcessamentoCobranca.WorkerService.Worker": {
+        "System.Void Stone.ProcessamentoCobranca.WorkerService.Worker::.ctor(Stone.ProcessamentoCobranca.Dominio.Services.Interfaces.IFaturamentoStoneService)": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0
+          },
+          "Branches": []
+        }
+      },
+      "Stone.ProcessamentoCobranca.WorkerService.Worker/<ExecuteAsync>d__2": {
+        "System.Void Stone.ProcessamentoCobranca.WorkerService.Worker/<ExecuteAsync>d__2::MoveNext()": {
+          "Lines": {
+            "25": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0
+          },
+          "Branches": [
+            {
+              "Line": 27,
+              "Offset": 501,
+              "EndOffset": 54,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 501,
+              "EndOffset": 506,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}
