@@ -1,0 +1,50 @@
+{
+  "https://localhost:44335/stone/v1/cliente?pagina=1" : {
+    "transaction" : "https://localhost:44335/stone/v1/cliente?pagina=1",
+    "sampleCount" : 700,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 9776.451428571421,
+    "medianResTime" : 9323.0,
+    "minResTime" : 8720.0,
+    "maxResTime" : 12085.0,
+    "pct1ResTime" : 11241.0,
+    "pct2ResTime" : 11952.9,
+    "pct3ResTime" : 12075.97,
+    "throughput" : 57.77007510109763,
+    "receivedKBytesPerSec" : 67.76031672959478,
+    "sentKBytesPerSec" : 9.816399480069324
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 700,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 9776.451428571421,
+    "medianResTime" : 9323.0,
+    "minResTime" : 8720.0,
+    "maxResTime" : 12085.0,
+    "pct1ResTime" : 11241.0,
+    "pct2ResTime" : 11952.9,
+    "pct3ResTime" : 12075.97,
+    "throughput" : 57.77007510109763,
+    "receivedKBytesPerSec" : 67.76031672959478,
+    "sentKBytesPerSec" : 9.816399480069324
+  },
+  "Consulta paginada" : {
+    "transaction" : "Consulta paginada",
+    "sampleCount" : 700,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 9776.451428571418,
+    "medianResTime" : 9323.0,
+    "minResTime" : 8720.0,
+    "maxResTime" : 12085.0,
+    "pct1ResTime" : 11241.0,
+    "pct2ResTime" : 11952.9,
+    "pct3ResTime" : 12075.97,
+    "throughput" : 55.20069395158111,
+    "receivedKBytesPerSec" : 64.74660971630787,
+    "sentKBytesPerSec" : 9.379805417553822
+  }
+}

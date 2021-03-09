@@ -1,0 +1,50 @@
+{
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 700,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 12250.33428571429,
+    "medianResTime" : 12425.5,
+    "minResTime" : 3380.0,
+    "maxResTime" : 12819.0,
+    "pct1ResTime" : 12755.9,
+    "pct2ResTime" : 12781.0,
+    "pct3ResTime" : 12806.99,
+    "throughput" : 54.51713395638629,
+    "receivedKBytesPerSec" : 83.3305953076324,
+    "sentKBytesPerSec" : 9.636329341900312
+  },
+  "Consulta por mes paginada" : {
+    "transaction" : "Consulta por mes paginada",
+    "sampleCount" : 700,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 12250.334285714289,
+    "medianResTime" : 12425.5,
+    "minResTime" : 3380.0,
+    "maxResTime" : 12819.0,
+    "pct1ResTime" : 12755.9,
+    "pct2ResTime" : 12781.0,
+    "pct3ResTime" : 12806.99,
+    "throughput" : 52.3873671606047,
+    "receivedKBytesPerSec" : 80.0752015978147,
+    "sentKBytesPerSec" : 9.259876421942822
+  },
+  "https://localhost:44386/stone/v1/cobranca/mes/3/pagina/1" : {
+    "transaction" : "https://localhost:44386/stone/v1/cobranca/mes/3/pagina/1",
+    "sampleCount" : 700,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 12250.33428571429,
+    "medianResTime" : 12425.5,
+    "minResTime" : 3380.0,
+    "maxResTime" : 12819.0,
+    "pct1ResTime" : 12755.9,
+    "pct2ResTime" : 12781.0,
+    "pct3ResTime" : 12806.99,
+    "throughput" : 54.51713395638629,
+    "receivedKBytesPerSec" : 83.3305953076324,
+    "sentKBytesPerSec" : 9.636329341900312
+  }
+}
