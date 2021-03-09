@@ -2,7 +2,7 @@
 
 ## Desenvolvimento
 ##### O Desenvolvimento da aplicação foi utilizando a linguegem C# junto ao Framework .Net Core 3.1 tendo como Banco de dados MongoDb, foi utilizado também o Swagger para a documentação da API e Docker para utilização de Contêiner.
-##### A aplicação final é um BackgroundService que processa os dados de maneira assincrona que se conecta a API de Clientes e apos ter uma remessa de clientes e com isso gera as cobranças dos mesmo na API de Cobranças. A aplicação possui uma fila local em memoria apenas para ter o controle de resiliencia aplicado a cobranças não faturadas devido a qualquer tipo de indisponibilidade.
+##### A aplicação final é um BackgroundService que processa os dados de maneira assincrona que se conecta a API de Clientes e apos ter uma remessa de clientes gera as cobranças dos mesmo na API de Cobranças. A aplicação possui uma fila local em memoria apenas para ter o controle de resiliencia aplicado a cobranças não faturadas devido a qualquer tipo de indisponibilidade.
 
 #### Fluxo Sincrono do cenario ideal do BackgroundService
 ![image](https://user-images.githubusercontent.com/38633004/110498225-e7c88680-80d5-11eb-895a-6b9604a01fe3.png)
