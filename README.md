@@ -45,6 +45,4 @@
 #### BackgroundService (Não se aplica os testes de integração)
 ![image](https://user-images.githubusercontent.com/38633004/110500266-c799c700-80d7-11eb-94e9-729e7e2f0461.png)
 
-#### Testes Unitarios e TDD
-###### Os testes unitarios contemplam apenas a camada de dominio da aplicação, sendo a mesma desenvolvida utilizando TDD
 
