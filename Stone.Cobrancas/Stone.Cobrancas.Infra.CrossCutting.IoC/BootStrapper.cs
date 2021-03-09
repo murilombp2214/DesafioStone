@@ -1,5 +1,10 @@
 ﻿
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Diagnostics.HealthChecks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Diagnostics.HealthChecks;
+using Newtonsoft.Json;
 using Stone.Cobrancas.Aplicacacao.AppService;
 using Stone.Cobrancas.Aplicacacao.AppService.Interfaces;
 using Stone.Cobrancas.Dominio.Repository.Interface;
@@ -17,6 +22,8 @@ using Stone.Cobrancas.Infra.Data.MongoDb.Configurations.Interfaces;
 using Stone.Cobrancas.Infra.Data.Query;
 using Stone.Cobrancas.Infra.Data.Writer;
 using System;
+using System.Linq;
+using System.Net.Mime;
 
 namespace Stone.Cobrancas.Infra.CrossCutting.IoC
 {
@@ -30,6 +37,34 @@ namespace Stone.Cobrancas.Infra.CrossCutting.IoC
                     .AddRepository();
 
             return services;
+        }
+
+        public static IServiceCollection AddHealthChecksApiCobranca(this IServiceCollection services)
+        {
+            services.AddHealthChecks()
+                    .AddMongoDb(mongodbConnectionString: Environment.GetEnvironmentVariable(DataBaseConstants.CONNECTION_STRING),
+                                                         Environment.GetEnvironmentVariable(DataBaseConstants.DATABASE_NAME),
+                                                         HealthStatus.Unhealthy);
+            return services;
+        }
+
+        public static void UseHealthChecksApiCobranca(this IApplicationBuilder app)
+        {
+            app.UseHealthChecks("/hc",
+                new HealthCheckOptions
+                {
+                    ResponseWriter = async (context, report) =>
+                    {
+                        var result = JsonConvert.SerializeObject(
+                            new
+                            {
+                                status = report.Status.ToString(),
+                                errors = report.Entries.Select(e => new { key = e.Key, value = Enum.GetName(typeof(HealthStatus), e.Value.Status) })
+                            });
+                        context.Response.ContentType = MediaTypeNames.Application.Json;
+                        await context.Response.WriteAsync(result);
+                    }
+                });
         }
 
         private static IServiceCollection AddRepository(this IServiceCollection services)

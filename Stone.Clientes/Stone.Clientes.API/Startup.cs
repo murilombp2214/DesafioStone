@@ -25,9 +25,8 @@ namespace Stone.Clientes.API
             services.AddGlobalExceptionHandlerMiddleware();
             services.AddSwaggerConfiguration();
             services.RegisterServices()
-                    .AddUtil(isDevelopment);
-
-
+                    .AddUtil(isDevelopment)
+                    .AddHealthChecksApiCliente();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -46,6 +45,8 @@ namespace Stone.Clientes.API
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseHealthChecksApiCliente();
 
             app.UseEndpoints(endpoints =>
             {

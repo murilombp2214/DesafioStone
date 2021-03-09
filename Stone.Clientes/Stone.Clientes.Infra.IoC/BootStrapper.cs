@@ -1,4 +1,10 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using HealthChecks.MongoDb;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Diagnostics.HealthChecks;
+using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Diagnostics.HealthChecks;
+using Newtonsoft.Json;
 using Stone.Clientes.Aplicacacao.AppService;
 using Stone.Clientes.Aplicacacao.AppService.Interfaces;
 using Stone.Clientes.Dominio.Repository.Interfaces;
@@ -16,6 +22,8 @@ using Stone.Clientes.Infra.Data.MongoDb.Configurations.Interfaces;
 using Stone.Clientes.Infra.Data.Query;
 using Stone.Clientes.Infra.Data.Repository;
 using System;
+using System.Linq;
+using System.Net.Mime;
 
 namespace Stone.Clientes.Infra.CrossCutting.IoC
 {
@@ -29,6 +37,34 @@ namespace Stone.Clientes.Infra.CrossCutting.IoC
                     .AddRepository();
 
             return services;
+        }
+
+        public static IServiceCollection AddHealthChecksApiCliente(this IServiceCollection services)
+        {
+            services.AddHealthChecks()
+                    .AddMongoDb(mongodbConnectionString: Environment.GetEnvironmentVariable(DataBaseConstants.CONNECTION_STRING), 
+                                                         Environment.GetEnvironmentVariable(DataBaseConstants.DATABASE_NAME),
+                                                         HealthStatus.Unhealthy);
+            return services;
+        }
+
+        public static void UseHealthChecksApiCliente(this IApplicationBuilder app)
+        {
+            app.UseHealthChecks("/hc",
+                new HealthCheckOptions
+                {
+                    ResponseWriter = async (context, report) =>
+                    {
+                        var result = JsonConvert.SerializeObject(
+                            new
+                            {
+                                status = report.Status.ToString(),
+                                errors = report.Entries.Select(e => new { key = e.Key, value = Enum.GetName(typeof(HealthStatus), e.Value.Status) })
+                            });
+                        context.Response.ContentType = MediaTypeNames.Application.Json;
+                        await context.Response.WriteAsync(result);
+                    }
+                });
         }
 
         private static IServiceCollection AddValidations(this IServiceCollection services)
@@ -55,22 +91,6 @@ namespace Stone.Clientes.Infra.CrossCutting.IoC
             services.AddScoped<IClienteWriterRepository, ClienteWriterRepository>();
             services.AddScoped<IClienteQueryRepository, ClienteQueryRepository>();
 
-            return services;
-        }
-
-        public static IServiceCollection AddHealthCheck(this IServiceCollection services)
-        {
-            services.AddHealthChecks()
-                    .AddMongoDb(mongodbConnectionString: Environment.GetEnvironmentVariable(DataBaseConstants.CONNECTION_STRING),
-                                mongoDatabaseName: Environment.GetEnvironmentVariable(DataBaseConstants.CONNECTION_STRING));
-
-            services.AddHealthChecksUI(opt =>
-            {
-                opt.SetEvaluationTimeInSeconds(30);
-                opt.MaximumHistoryEntriesPerEndpoint(60);
-                opt.SetApiMaxActiveRequests(1);
-                opt.AddHealthCheckEndpoint("default api", "/healthz");
-            });
             return services;
         }
 

@@ -28,7 +28,8 @@ namespace Stone.Cobrancas.API
             services.AddSwaggerConfiguration();
 
              services.RegisterServices()
-                    .AddUtil(isDevelopment);
+                    .AddUtil(isDevelopment)
+                    .AddHealthChecksApiCobranca();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -47,6 +48,8 @@ namespace Stone.Cobrancas.API
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseHealthChecksApiCobranca();
 
             app.UseEndpoints(endpoints =>
             {
