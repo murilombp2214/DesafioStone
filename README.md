@@ -33,6 +33,9 @@
 ###### Para acessar a monitoria basta apenas ir na rota "/HC" que você tera acesso ao Json de status do banco de dados da aplicação
 ![image](https://user-images.githubusercontent.com/38633004/110492726-3889b080-80d1-11eb-8a28-8d4b2b257bcd.png)
 
-##### Testes Unitarios e TDD
+## Logs das aplicações
+###### A aplicação registra qualquer tipo de mal funcionamento (erro) ou de algo que necessite de algum tipo de atenção no Console da aplicação em niveis de INFO, WARNING e FAIL.
+
+## Testes Unitarios e TDD
 ###### Os testes unitarios contemplam apenas a camada de dominio da aplicação, sendo a mesma desenvolvida utilizando TDD
 
