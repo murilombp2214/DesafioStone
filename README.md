@@ -37,14 +37,12 @@
 ###### A aplicação registra qualquer tipo de mal funcionamento (erro) ou de algo que necessite de algum tipo de atenção no Console da aplicação em niveis de INFO, WARNING e FAIL.
 
 ## Testabilidade
-### Testes
+### Testes Unitarios ao lado dos testes de integração realizados com XUnit e Microsoft.AspNetCore.TestHost
 #### API DE COBRANÇAS
-![image](https://user-images.githubusercontent.com/38633004/110499760-51956000-80d7-11eb-9aa5-73c365a0bf9e.png)
+![image](https://user-images.githubusercontent.com/38633004/110526662-d17df300-80f4-11eb-9db8-94e6282eef0b.png)
 #### API DE CLIENTES
-![image](https://user-images.githubusercontent.com/38633004/110499945-7b4e8700-80d7-11eb-8991-af771906f25b.png)
-#### BackgroundService
+![image](https://user-images.githubusercontent.com/38633004/110526757-f2dedf00-80f4-11eb-95f8-295e6f7769a5.png)
+#### BackgroundService (Não se aplica os testes de integração)
 ![image](https://user-images.githubusercontent.com/38633004/110500266-c799c700-80d7-11eb-94e9-729e7e2f0461.png)
 
-#### Testes Unitarios e TDD
-###### Os testes unitarios contemplam apenas a camada de dominio da aplicação, sendo a mesma desenvolvida utilizando TDD
 
