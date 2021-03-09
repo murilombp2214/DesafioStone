@@ -1,7 +1,7 @@
 # DesafioStone
 
 ## Desenvolvimento
-##### O Desenvolvimento da aplicação foi utilizando a linguegem C# junto ao Framework .Net Core 3.1 tendo como Banco de dados MongoDb, foi utilizado também o Swagger para a documentação da API e Docker para utilização de Contêiner.
+##### O Desenvolvimento da aplicação foi utilizando a linguagem C# junto ao Framework .Net Core 3.1 tendo como Banco de dados MongoDb, foi utilizado também o Swagger para a documentação da API e Docker para utilização de Contêiner.
 ##### A aplicação final é um BackgroundService que processa os dados de maneira assincrona que se conecta a API de Clientes e apos ter uma remessa de clientes gera as cobranças dos mesmo na API de Cobranças. A aplicação possui uma fila local em memoria apenas para ter o controle de resiliencia aplicado a cobranças não faturadas devido a qualquer tipo de indisponibilidade.
 
 #### Fluxo Sincrono do cenario ideal do BackgroundService
