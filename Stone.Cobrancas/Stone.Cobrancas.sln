@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stone.Cobrancas.API", "Stone.Cobrancas.API\Stone.Cobrancas.API.csproj", "{A41AE6A9-7300-44D7-A491-CB84F1450AD2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Servicos", "1 - Servicos", "{18A2BD52-012C-43E3-8273-87D9D0DB0972}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Aplicacao", "2 - Aplicacao", "{0FF205D7-076B-48A9-9BE2-040920B057C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Dominio", "3 - Dominio", "{FDFD2BDC-0829-4A93-84F8-1FA0CA2A5C69}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4  - Infra", "4  - Infra", "{8B75949F-B034-4A38-B687-BF0D08CB416C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Testes", "5 - Testes", "{BD1462FA-EDC5-420C-B34F-A3657EC9D0D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stone.Cobrancas.Aplicacacao", "Stone.Cobrancas.Aplicacacao\Stone.Cobrancas.Aplicacacao.csproj", "{60093E0E-E886-4E68-A38A-C33F1FA58F9E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stone.Cobrancas.Dominio", "Stone.Cobrancas.Dominio\Stone.Cobrancas.Dominio.csproj", "{8AF41E93-9323-45BD-AADB-E08FC10C690F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{34FF5B20-CE4E-45E9-A28C-ABC877715628}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - CrossCutting", "4.2 - CrossCutting", "{86675EFE-6832-4C13-8B4A-B4E25791D7FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stone.Cobrancas.Infra.Data", "Stone.Cobrancas.Infra.Data\Stone.Cobrancas.Infra.Data.csproj", "{45E7A31D-3E0B-403C-B55D-B75EF2E328F9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stone.Cobrancas.Infra.CrossCutting.IoC", "Stone.Cobrancas.Infra.CrossCutting.IoC\Stone.Cobrancas.Infra.CrossCutting.IoC.csproj", "{D53B126B-7205-4A02-961F-2348E13D76A0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stone.Cobrancas.Infra.CrossCutting.Utils", "Stone.Cobrancas.Infra.CrossCutting.Utils\Stone.Cobrancas.Infra.CrossCutting.Utils.csproj", "{0BFE6D7A-456C-435B-AF7C-B583EEB37581}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stone.Cobrancas.Tests", "Stone.Cobrancas.Tests\Stone.Cobrancas.Tests.csproj", "{7845EF60-D00D-4099-9BBE-D274A1BDE8F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A41AE6A9-7300-44D7-A491-CB84F1450AD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A41AE6A9-7300-44D7-A491-CB84F1450AD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A41AE6A9-7300-44D7-A491-CB84F1450AD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A41AE6A9-7300-44D7-A491-CB84F1450AD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60093E0E-E886-4E68-A38A-C33F1FA58F9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60093E0E-E886-4E68-A38A-C33F1FA58F9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60093E0E-E886-4E68-A38A-C33F1FA58F9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60093E0E-E886-4E68-A38A-C33F1FA58F9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AF41E93-9323-45BD-AADB-E08FC10C690F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AF41E93-9323-45BD-AADB-E08FC10C690F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AF41E93-9323-45BD-AADB-E08FC10C690F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AF41E93-9323-45BD-AADB-E08FC10C690F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45E7A31D-3E0B-403C-B55D-B75EF2E328F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45E7A31D-3E0B-403C-B55D-B75EF2E328F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45E7A31D-3E0B-403C-B55D-B75EF2E328F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45E7A31D-3E0B-403C-B55D-B75EF2E328F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D53B126B-7205-4A02-961F-2348E13D76A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D53B126B-7205-4A02-961F-2348E13D76A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D53B126B-7205-4A02-961F-2348E13D76A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D53B126B-7205-4A02-961F-2348E13D76A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BFE6D7A-456C-435B-AF7C-B583EEB37581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BFE6D7A-456C-435B-AF7C-B583EEB37581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BFE6D7A-456C-435B-AF7C-B583EEB37581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BFE6D7A-456C-435B-AF7C-B583EEB37581}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7845EF60-D00D-4099-9BBE-D274A1BDE8F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7845EF60-D00D-4099-9BBE-D274A1BDE8F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7845EF60-D00D-4099-9BBE-D274A1BDE8F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7845EF60-D00D-4099-9BBE-D274A1BDE8F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A41AE6A9-7300-44D7-A491-CB84F1450AD2} = {18A2BD52-012C-43E3-8273-87D9D0DB0972}
+		{60093E0E-E886-4E68-A38A-C33F1FA58F9E} = {0FF205D7-076B-48A9-9BE2-040920B057C5}
+		{8AF41E93-9323-45BD-AADB-E08FC10C690F} = {FDFD2BDC-0829-4A93-84F8-1FA0CA2A5C69}
+		{34FF5B20-CE4E-45E9-A28C-ABC877715628} = {8B75949F-B034-4A38-B687-BF0D08CB416C}
+		{86675EFE-6832-4C13-8B4A-B4E25791D7FB} = {8B75949F-B034-4A38-B687-BF0D08CB416C}
+		{45E7A31D-3E0B-403C-B55D-B75EF2E328F9} = {34FF5B20-CE4E-45E9-A28C-ABC877715628}
+		{D53B126B-7205-4A02-961F-2348E13D76A0} = {86675EFE-6832-4C13-8B4A-B4E25791D7FB}
+		{0BFE6D7A-456C-435B-AF7C-B583EEB37581} = {86675EFE-6832-4C13-8B4A-B4E25791D7FB}
+		{7845EF60-D00D-4099-9BBE-D274A1BDE8F4} = {BD1462FA-EDC5-420C-B34F-A3657EC9D0D8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {042F963B-2E6E-4C01-BDBC-05C0928E316F}
+	EndGlobalSection
+EndGlobal

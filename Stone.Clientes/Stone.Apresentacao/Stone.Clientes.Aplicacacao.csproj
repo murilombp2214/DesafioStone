@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Stone.Clientes.Dominio\Stone.Clientes.Dominio.csproj" />
+    <ProjectReference Include="..\Stone.Clientes.Infra.CrossCutting.Utils\Stone.Clientes.Infra.CrossCutting.Utils.csproj" />
+  </ItemGroup>
+
+</Project>

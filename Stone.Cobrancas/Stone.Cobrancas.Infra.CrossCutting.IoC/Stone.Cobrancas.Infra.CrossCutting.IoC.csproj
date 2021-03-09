@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Stone.Cobrancas.Aplicacacao\Stone.Cobrancas.Aplicacacao.csproj" />
+    <ProjectReference Include="..\Stone.Cobrancas.Dominio\Stone.Cobrancas.Dominio.csproj" />
+    <ProjectReference Include="..\Stone.Cobrancas.Infra.Data\Stone.Cobrancas.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>
