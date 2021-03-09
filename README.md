@@ -40,9 +40,25 @@
 ### Testes Unitarios ao lado dos testes de integração realizados com XUnit e Microsoft.AspNetCore.TestHost
 #### API DE COBRANÇAS
 ![image](https://user-images.githubusercontent.com/38633004/110526662-d17df300-80f4-11eb-9db8-94e6282eef0b.png)
+
+##### Cobertura de testes unitarios com coverlet para API DE COBRANÇAS (Apenas camada de dominio)
+![image](https://user-images.githubusercontent.com/38633004/110546808-bff51500-810d-11eb-9f96-318f121f2de9.png)
+
+##### Cobertura de testes com integrados coverlet para API DE COBRANÇAS
+![image](https://user-images.githubusercontent.com/38633004/110546845-cdaa9a80-810d-11eb-8996-843701e897b2.png)
+
 #### API DE CLIENTES
 ![image](https://user-images.githubusercontent.com/38633004/110526757-f2dedf00-80f4-11eb-95f8-295e6f7769a5.png)
+##### Cobertura de testes unitarios com coverlet para API DE CLIENTES (Apenas camada de dominio)
+![image](https://user-images.githubusercontent.com/38633004/110546065-c6cf5800-810c-11eb-9834-fe902ac671f6.png)
+##### Cobertura de testes integrados com coverlet para API DE CLIENTES
+![image](https://user-images.githubusercontent.com/38633004/110546226-fb431400-810c-11eb-894c-fa22a9ace742.png)
+
+
 #### BackgroundService (Não se aplica os testes de integração)
 ![image](https://user-images.githubusercontent.com/38633004/110500266-c799c700-80d7-11eb-94e9-729e7e2f0461.png)
+
+
+###### O comando utilizado para verificar a cobertura é: dotnet test /p:CollectCoverage=true
 
 
