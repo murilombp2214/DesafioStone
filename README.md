@@ -26,6 +26,20 @@
 ##### Timeout
 ###### O timeout é realizado quando uma requisição do 'HttpClient' tentar realizar uma conexão e atinge o tempo maxima de espera. O padrão hoje é 3 segundos.
 
+
+## Desempenho / Performace
+### Os testes de desempenho foram realizados usando jmeter
+![image](https://user-images.githubusercontent.com/38633004/110553955-a0171e80-8118-11eb-8161-956c67b6bdee.png)
+#### Os scripts e os relatorios dos desempenhos das API(s) se encontram na pasta 'Stone.JMeter' do projeto
+##### Abaixo as imagens do desempenho das API(s) nos testes de stress com 700 Thread simultâneas
+
+#### API DE CLIENTE
+![image](https://user-images.githubusercontent.com/38633004/110553844-6f36e980-8118-11eb-9382-27ed8cdf0480.png)
+#### API DE COBRANÇA
+![image](https://user-images.githubusercontent.com/38633004/110553872-79f17e80-8118-11eb-90e0-023e14acc711.png)
+
+###### Como observado as API(s) suportam simultaneamente 700 acessos em ambiente local sem nenhuma falha com um tempo de resposta medio de 1 segundo.
+
 ## Monitoramento 
 ##### O monitoramente da aplicação foi construido com healthcheck 
 
@@ -40,9 +54,25 @@
 ### Testes Unitarios ao lado dos testes de integração realizados com XUnit e Microsoft.AspNetCore.TestHost
 #### API DE COBRANÇAS
 ![image](https://user-images.githubusercontent.com/38633004/110526662-d17df300-80f4-11eb-9db8-94e6282eef0b.png)
+
+##### Cobertura de testes unitarios com coverlet para API DE COBRANÇAS (Apenas camada de dominio)
+![image](https://user-images.githubusercontent.com/38633004/110546808-bff51500-810d-11eb-9f96-318f121f2de9.png)
+
+##### Cobertura de testes com integrados coverlet para API DE COBRANÇAS
+![image](https://user-images.githubusercontent.com/38633004/110546845-cdaa9a80-810d-11eb-8996-843701e897b2.png)
+
 #### API DE CLIENTES
 ![image](https://user-images.githubusercontent.com/38633004/110526757-f2dedf00-80f4-11eb-95f8-295e6f7769a5.png)
+##### Cobertura de testes unitarios com coverlet para API DE CLIENTES (Apenas camada de dominio)
+![image](https://user-images.githubusercontent.com/38633004/110546065-c6cf5800-810c-11eb-9834-fe902ac671f6.png)
+##### Cobertura de testes integrados com coverlet para API DE CLIENTES
+![image](https://user-images.githubusercontent.com/38633004/110546226-fb431400-810c-11eb-894c-fa22a9ace742.png)
+
+
 #### BackgroundService (Não se aplica os testes de integração)
 ![image](https://user-images.githubusercontent.com/38633004/110500266-c799c700-80d7-11eb-94e9-729e7e2f0461.png)
+
+
+###### O comando utilizado para verificar a cobertura é: dotnet test /p:CollectCoverage=true
 
 
