@@ -13,13 +13,9 @@ namespace Stone.ProcessamentoCobranca.Infra.Data.Queues
     {
         public IEnumerable<CobrancaStone> ObtenhaCobrancasNaoProcessadas()
         {
-            if (QueueLocal.Instance.Any())
+            while (QueueLocal.Instance.Any())
             {
                 yield return QueueLocal.Instance.Dequeue();
-            }
-            else
-            {
-                yield break;
             }
         }
     }
